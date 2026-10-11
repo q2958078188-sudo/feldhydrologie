@@ -1,0 +1,866 @@
+{
+  "schema_version": "feldhydrologie-display-sources-v1",
+  "source_manifest_sha256": "7cb6d93521b092abb1027d82f4641478a505e47126b3c29ddf399a9b2fed6eea",
+  "figures": [
+    {
+      "id": "Di-AM-Reale-Kalibrierung",
+      "title": "Di · Reale Kalibrierung",
+      "caption": "11 tatsächliche Bodenpunkte 0–10; Wasserbilanz und θMETER. P1 und P10 sind gesondert markiert.",
+      "question": "Wie ändern sich Sensoranzeige und Wasserbilanz mit der Zugabe?",
+      "observations": [
+        "θMETER steigt von 0.091 auf 0.467 m³/m³; insgesamt 3300 mL zugegeben.",
+        "P9→P10: +600 mL und +2.70 Prozentpunkte; bei P10 sichtbares Oberflächenwasser."
+      ],
+      "possible_mechanisms": [
+        "Ungleichmäßige Mischung, Kontakt, Materialverluste und freie Wasseransammlung können Unterschiede mitprägen; Einflüsse nicht separat bestimmt."
+      ],
+      "data_quality": [
+        "RAW aus θMETER rückgerechnet; kein unabhängiger Rohwert.",
+        "P1: unzureichend gemischt. P10: Oberflächenwasser; Wasserbilanz ist keine gesicherte Porenwasserreferenz.",
+        "w0 aus Kurslaborreferenz; V=5.5 L unverändert angenommen. Bodenverluste nicht quantifiziert.",
+        "Keine Replikatserie, kein Fit. ψ im ungesiebten Ausgangsboden separat; keine θ–ψ-Paare."
+      ],
+      "source_label": "Gruppe 5 · real",
+      "display": {
+        "title": "Di · Kalibrierung",
+        "caption": "11 Bodenpunkte 0–10; Wasserbilanz und θMETER. P1 und P10 sind gesondert markiert.",
+        "observations": [
+          "θMETER steigt von 0.091 auf 0.467 m³/m³; insgesamt 3300 mL zugegeben.",
+          "P9→P10: +600 mL und +2.70 Prozentpunkte; bei P10 sichtbares Oberflächenwasser."
+        ],
+        "possible_mechanisms": [
+          "Ungleichmäßige Mischung, Kontakt, Materialverluste und freie Wasseransammlung können Unterschiede mitprägen; Einflüsse nicht separat bestimmt."
+        ],
+        "data_quality": [
+          "RAW aus θMETER rückgerechnet; kein unabhängiger Rohwert.",
+          "P1: unzureichend gemischt. P10: Oberflächenwasser; Wasserbilanz ist keine gesicherte Porenwasserreferenz.",
+          "w0 aus Kurslaborreferenz; V=5.5 L unverändert angenommen. Bodenverluste nicht quantifiziert.",
+          "Keine Replikatserie, kein Fit. ψ im ungesiebten Ausgangsboden separat; keine θ–ψ-Paare."
+        ]
+      },
+      "mode": "measured",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/Bodensensorik-Reale-Messungen-2026.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/Bodensensorik-Reale-Messungen-2026.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/Bodensensorik-Reale-Messungen-2026.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "Bodenpunkte",
+          "value": 11
+        },
+        {
+          "label": "P10 · θMETER",
+          "value": "0.467"
+        },
+        {
+          "label": "Σ Zugabe",
+          "value": "3300 mL"
+        }
+      ],
+      "source": [
+        {
+          "label": "Gruppe 5 · 06.10.2026 · Feldmessungen",
+          "relative_file": "../Inputs/Gruppe5-2026-10-06-AM/Kalibrierung-Visualisierung.json",
+          "sha256": "f6bd20198f8e3d04b13e070a6f4406276e160aef8856dc33e47e532804526e07",
+          "role": "current_measurements"
+        }
+      ]
+    },
+    {
+      "id": "Di-AM-Referenzvergleich",
+      "title": "Di · Referenzvergleich",
+      "caption": "Neun vergleichbare Referenzpaare (P0, P2–P9). P1 und P10 bleiben in den Rohdaten, sind hier ausgeschlossen.",
+      "question": "Wie groß ist die deskriptive Abweichung von der Wasserbilanz?",
+      "observations": [
+        "Neun freigegebene Paare zeigen negative θMETER−θref-Differenzen."
+      ],
+      "possible_mechanisms": [
+        "Der Vergleich umfasst auch Unsicherheit der Kurs-w0-Referenz und des konstant angenommenen Packungsvolumens. Keine Sensorfehlerdiagnose oder neue Kalibrierfunktion."
+      ],
+      "data_quality": [
+        "RAW aus θMETER rückgerechnet; kein unabhängiger Rohwert.",
+        "P1: unzureichend gemischt. P10: Oberflächenwasser; Wasserbilanz ist keine gesicherte Porenwasserreferenz.",
+        "w0 aus Kurslaborreferenz; V=5.5 L unverändert angenommen. Bodenverluste nicht quantifiziert.",
+        "Keine Replikatserie, kein Fit. ψ im ungesiebten Ausgangsboden separat; keine θ–ψ-Paare."
+      ],
+      "source_label": "Gruppe 5 · real",
+      "display": {
+        "title": "Di · Abweichung",
+        "caption": "Neun Vergleichspaare (P0, P2–P9). P1 und P10 bleiben in den Rohdaten, sind hier ausgeschlossen.",
+        "observations": [
+          "Neun freigegebene Paare zeigen negative θMETER−θref-Differenzen."
+        ],
+        "possible_mechanisms": [
+          "Der Vergleich umfasst auch Unsicherheit der Kurs-w0-Referenz und des konstant angenommenen Packungsvolumens. Keine Sensorfehlerdiagnose oder neue Kalibrierfunktion."
+        ],
+        "data_quality": [
+          "RAW aus θMETER rückgerechnet; kein unabhängiger Rohwert.",
+          "P1: unzureichend gemischt. P10: Oberflächenwasser; Wasserbilanz ist keine gesicherte Porenwasserreferenz.",
+          "w0 aus Kurslaborreferenz; V=5.5 L unverändert angenommen. Bodenverluste nicht quantifiziert.",
+          "Keine Replikatserie, kein Fit. ψ im ungesiebten Ausgangsboden separat; keine θ–ψ-Paare."
+        ]
+      },
+      "mode": "measured",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/Bodensensorik-Referenzabweichung-2026.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/Bodensensorik-Referenzabweichung-2026.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/Bodensensorik-Referenzabweichung-2026.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "Vergleichspaare",
+          "value": 9
+        },
+        {
+          "label": "Ausgeschlossen",
+          "value": "P1 · P10"
+        }
+      ],
+      "source": [
+        {
+          "label": "Gruppe 5 · 06.10.2026 · Feldmessungen",
+          "relative_file": "../Inputs/Gruppe5-2026-10-06-AM/Kalibrierung-Visualisierung.json",
+          "sha256": "f6bd20198f8e3d04b13e070a6f4406276e160aef8856dc33e47e532804526e07",
+          "role": "current_measurements"
+        }
+      ]
+    },
+    {
+      "id": "Di-AM-KA6-TRD1",
+      "title": "Di · KA6 aus dem Kurs",
+      "caption": "20 Tabellenwerte, alle TRD1. Ts3 ist die Fingerprobe-Schätzung; Ss/Uu/Tt sind reine Vergleichsbodenarten.",
+      "question": "Welche Kapazitäten ergeben sich aus der bestätigten Kurszuordnung?",
+      "observations": [
+        "Ts3: TW 33, nFK 17, FK 50, LK 15, GPV 65 Vol.-%.",
+        "GPV wird für jede Spalte als FK+LK berechnet."
+      ],
+      "possible_mechanisms": [
+        "Tabellenvergleich beschreibt modellhafte Bodenarten; keine gemessenen Kapazitäten oder Sand-Schluff-Ton-Anteile der Probe."
+      ],
+      "data_quality": [
+        "Kurs-Tabellenwerte, keine Kapazitätsmessungen. Ts3 geschätzt; alle vier Spalten TRD1 bestätigt."
+      ],
+      "source_label": "Gruppe 5 · real, KA6 Kurswerte",
+      "display": {
+        "title": "Di · KA6",
+        "caption": "20 Werte bei TRD1: Ts3 aus der Fingerprobe, Ss/Uu/Tt zum Bodenartenvergleich.",
+        "observations": [
+          "Ts3: TW 33, nFK 17, FK 50, LK 15, GPV 65 Vol.-%.",
+          "GPV wird für jede Spalte als FK+LK berechnet."
+        ],
+        "possible_mechanisms": [
+          "Tabellenvergleich beschreibt modellhafte Bodenarten; keine gemessenen Kapazitäten oder Sand-Schluff-Ton-Anteile der Probe."
+        ],
+        "data_quality": [
+          "Tabellenwerte, keine Kapazitätsmessungen. Ts3 geschätzt; alle vier Spalten TRD1 bestätigt."
+        ]
+      },
+      "mode": "measured",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/KA6-TRD1-Kursvergleich-2026.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/KA6-TRD1-Kursvergleich-2026.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/KA6-TRD1-Kursvergleich-2026.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "Klasse",
+          "value": "TRD1"
+        },
+        {
+          "label": "Kurswerte",
+          "value": 20
+        },
+        {
+          "label": "Probe",
+          "value": "Ts3 geschätzt"
+        }
+      ],
+      "source": [
+        {
+          "label": "Kursdatei KA6 · TRD1 · Ts3 geschätzt",
+          "relative_file": "../Inputs/Gruppe5-2026-10-06-AM/KA6-Visualisierung.json",
+          "sha256": "170675e62d1d3a50936ed1f0aac34511743b5d204eb76b8fd919d44ccb1617ec",
+          "role": "course_lookup"
+        },
+        {
+          "label": "Gruppe 5 · bestätigte Bodenart/TRD-Zuordnung",
+          "relative_file": "../Inputs/Gruppe5-2026-10-06-AM/Kalibrierung-Visualisierung.json",
+          "sha256": "f6bd20198f8e3d04b13e070a6f4406276e160aef8856dc33e47e532804526e07",
+          "role": "current_measurements"
+        }
+      ]
+    },
+    {
+      "id": "A2.2-Infiltration1-Simulation",
+      "title": "A2.2 · Infiltration 1",
+      "caption": "Eine zusammengesetzte Grafik, getrennte Beobachtungs- und Interpretationslisten; Rohdaten und Kfs-Bedingungen erhalten.",
+      "question": "Wie verläuft die Wasseraufnahme, und wie stark streuen die TDR-Punktwerte?",
+      "observations": [
+        "14 gültige Q-Intervalle; Σ ΔV = 100,722 cm³.",
+        "TDR: 25 Messungen, 20 Punkt-IDs; 5 Punkte mehrfach.",
+        "Punktmittel: 27,1 bis 39,3 vol.%."
+      ],
+      "possible_mechanisms": [
+        "Q hängt von der tatsächlichen Wasserhöhe und dem Aufnahmezustand ab; H-Stufen getrennt behandeln.",
+        "TDR-Streuung kann Standortheterogenität und Messstreuung enthalten."
+      ],
+      "data_quality": [
+        "Keine gemeinsame räumliche Zuordnung von Guelph und TDR.",
+        "W und Δt als Originalwerte prüfen; Ks nur bei vollständigen bestätigten Bedingungen.",
+        "Offizieller corrected-Guelph-Rechner noch nicht abgeglichen."
+      ],
+      "source_label": "Simulation 2026",
+      "display": {
+        "title": "A2.2 · Infiltration 1 · Reihe A",
+        "caption": "Eine zusammengesetzte Grafik, getrennte Beobachtungs- und Interpretationslisten; Rohdaten und Kfs-Bedingungen erhalten.",
+        "observations": [
+          "14 gültige Q-Intervalle; Σ ΔV = 100,722 cm³.",
+          "TDR: 25 Messungen, 20 Punkt-IDs; 5 Punkte mehrfach.",
+          "Punktmittel: 27,1 bis 39,3 vol.%."
+        ],
+        "possible_mechanisms": [
+          "Q hängt von der tatsächlichen Wasserhöhe und dem Aufnahmezustand ab; H-Stufen getrennt behandeln.",
+          "TDR-Streuung kann Standortheterogenität und Messstreuung enthalten."
+        ],
+        "data_quality": [
+          "Keine gemeinsame räumliche Zuordnung von Guelph und TDR.",
+          "W und Δt als Originalwerte prüfen; Ks nur bei vollständigen bestätigten Bedingungen.",
+          "Offizieller corrected-Guelph-Rechner noch nicht abgeglichen."
+        ]
+      },
+      "mode": "simulation",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Simulation.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Simulation.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Simulation.pdf",
+        "display_svg": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Simulation-Display.svg",
+        "display_png": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Simulation-Display.png"
+      },
+      "key_stats": [
+        {
+          "label": "Q-Intervalle",
+          "value": 14
+        },
+        {
+          "label": "TDR-Punkte",
+          "value": 20
+        },
+        {
+          "label": "Wiederholte Punkte",
+          "value": 5
+        }
+      ],
+      "source": [
+        {
+          "relative_file": "2026-Simulation.json",
+          "sha256": "e7e65bebb38b54b28e40ffbdcb6265a1200eb617bcc21d0902f0a9436339c095",
+          "role": "simulation"
+        }
+      ]
+    },
+    {
+      "id": "A2.2-Infiltration1-Referenz2025",
+      "title": "A2.2 · Infiltration 1",
+      "caption": "Eine zusammengesetzte Grafik, getrennte Beobachtungs- und Interpretationslisten; Rohdaten und Kfs-Bedingungen erhalten.",
+      "question": "Wie verläuft die Wasseraufnahme, und wie stark streuen die TDR-Punktwerte?",
+      "observations": [
+        "14 gültige Q-Intervalle; Σ ΔV = 97,2 cm³.",
+        "TDR: 20 Messungen, 20 Punkt-IDs; 0 Punkte mehrfach.",
+        "Punktmittel: 39 bis 48 vol.%."
+      ],
+      "possible_mechanisms": [
+        "Q hängt von der tatsächlichen Wasserhöhe und dem Aufnahmezustand ab; H-Stufen getrennt behandeln.",
+        "TDR-Streuung kann Standortheterogenität und Messstreuung enthalten."
+      ],
+      "data_quality": [
+        "Keine gemeinsame räumliche Zuordnung von Guelph und TDR.",
+        "W und Δt als Originalwerte prüfen; Ks nur bei vollständigen bestätigten Bedingungen.",
+        "Offizieller corrected-Guelph-Rechner noch nicht abgeglichen."
+      ],
+      "source_label": "Originalreferenz 2025",
+      "display": {
+        "title": "A2.2 · Infiltration 1 · Reihe B",
+        "caption": "Eine zusammengesetzte Grafik, getrennte Beobachtungs- und Interpretationslisten; Rohdaten und Kfs-Bedingungen erhalten.",
+        "observations": [
+          "14 gültige Q-Intervalle; Σ ΔV = 97,2 cm³.",
+          "TDR: 20 Messungen, 20 Punkt-IDs; 0 Punkte mehrfach.",
+          "Punktmittel: 39 bis 48 vol.%."
+        ],
+        "possible_mechanisms": [
+          "Q hängt von der tatsächlichen Wasserhöhe und dem Aufnahmezustand ab; H-Stufen getrennt behandeln.",
+          "TDR-Streuung kann Standortheterogenität und Messstreuung enthalten."
+        ],
+        "data_quality": [
+          "Keine gemeinsame räumliche Zuordnung von Guelph und TDR.",
+          "W und Δt als Originalwerte prüfen; Ks nur bei vollständigen bestätigten Bedingungen.",
+          "Offizieller corrected-Guelph-Rechner noch nicht abgeglichen."
+        ]
+      },
+      "mode": "reference",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Referenz2025.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Referenz2025.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Referenz2025.pdf",
+        "display_svg": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Referenz2025-Display.svg",
+        "display_png": "../13-Analyse/Probelauf/Figuren/A2.2-Infiltration1-Referenz2025-Display.png"
+      },
+      "key_stats": [
+        {
+          "label": "Q-Intervalle",
+          "value": 14
+        },
+        {
+          "label": "TDR-Punkte",
+          "value": 20
+        },
+        {
+          "label": "Wiederholte Punkte",
+          "value": 0
+        }
+      ],
+      "source": [
+        {
+          "relative_file": "2025-Infiltration1-Referenz.json",
+          "sha256": "0514d851b81b29ab9d793f6322515366712a9adf7e6bb287bb0de988a842a02b",
+          "role": "historical_reference"
+        }
+      ]
+    },
+    {
+      "id": "A3.2-01-Bodenwasser-Snapshot",
+      "title": "Bodenwasser: Menge, Bindung, Tiefe",
+      "caption": "Drei Nutzungen und drei diskrete Tiefen; θ/ψ nur bei exakter site/depth/time-Paarung. Geräte etwa 50 cm getrennt; keine Retentionskurve.",
+      "question": "Wie unterscheiden sich Wassermenge und Bindung mit Nutzung und Tiefe?",
+      "observations": [
+        "9 exakt zeit-/tiefen-gepaarte Positionen.",
+        "θ: 24–39,6 vol.%; ψm: -58–-8 kPa."
+      ],
+      "possible_mechanisms": [
+        "Textur, Porenstruktur, Wurzeln und Witterung könnten Menge und Bindung unterschiedlich beeinflussen."
+      ],
+      "data_quality": [
+        "Probelaufwerte bei Simulation; kein beobachteter Nutzungseffekt.",
+        "TEROS 11/21 etwa 50 cm getrennt, kein identisches Messvolumen.",
+        "Ein Snapshot, kein Gleichgewichtsnachweis und keine Retentionskurve."
+      ],
+      "source_label": "Simulation 2026",
+      "display": {
+        "title": "Bodenwasser: Menge, Bindung, Tiefe",
+        "caption": "Drei Nutzungen und drei diskrete Tiefen; θ/ψ nur bei exakter site/depth/time-Paarung. Geräte etwa 50 cm getrennt; keine Retentionskurve.",
+        "observations": [
+          "9 exakt zeit-/tiefen-gepaarte Positionen.",
+          "θ: 24–39,6 vol.%; ψm: -58–-8 kPa."
+        ],
+        "possible_mechanisms": [
+          "Textur, Porenstruktur, Wurzeln und Witterung könnten Menge und Bindung unterschiedlich beeinflussen."
+        ],
+        "data_quality": [
+          "TEROS 11/21 etwa 50 cm getrennt, kein identisches Messvolumen.",
+          "Ein Snapshot, kein Gleichgewichtsnachweis und keine Retentionskurve."
+        ]
+      },
+      "mode": "simulation",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/A3.2-01-Bodenwasser-Snapshot.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/A3.2-01-Bodenwasser-Snapshot.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/A3.2-01-Bodenwasser-Snapshot.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "θ/ψ-Paare",
+          "value": 9
+        }
+      ],
+      "source": [
+        {
+          "relative_file": "2026-Simulation.json",
+          "sha256": "e7e65bebb38b54b28e40ffbdcb6265a1200eb617bcc21d0902f0a9436339c095",
+          "role": "simulation"
+        }
+      ]
+    },
+    {
+      "id": "A3.2-02-SMT100-ZeitTiefe",
+      "title": "36 Positionen: Tiefe und Zeit",
+      "caption": "Zwölf Tiefen je Nutzung, 25 explizite Zeitpunkte. Alle Zellen tatsächliche Datenzeilen der ausdrücklich simulierten Serie; keine Interpolation.",
+      "question": "Welche Tiefe und welcher Zeitpunkt tragen zur Wasserheterogenität bei?",
+      "observations": [
+        "36 Sensorpositionen, 900 protokollierte Beobachtungen.",
+        "Erste–letzte θ-Änderung: -0,48–-0,48 Prozentpunkte."
+      ],
+      "possible_mechanisms": [
+        "Unterschiedliche Bodenspeicherung und Randbedingungen können Tiefen-Zeit-Muster erzeugen."
+      ],
+      "data_quality": [
+        "Bei Simulation ist die Dynamik konstruiert, kein gemessenes Niederschlagsereignis.",
+        "Diskrete Sensorpositionen, keine zusätzlich gemessenen Zwischentiefen.",
+        "Zeitpunkte pro Sensor sind nicht unabhängig; keine Signifikanzprüfung."
+      ],
+      "source_label": "Simulation 2026",
+      "display": {
+        "title": "36 Positionen: Tiefe und Zeit",
+        "caption": "Zwölf Tiefen je Nutzung, 25 explizite Zeitpunkte. Alle Zellen tatsächliche Datenzeilen der ausdrücklich simulierten Serie; keine Interpolation.",
+        "observations": [
+          "36 Sensorpositionen, 900 protokollierte Beobachtungen.",
+          "Erste–letzte θ-Änderung: -0,48–-0,48 Prozentpunkte."
+        ],
+        "possible_mechanisms": [
+          "Unterschiedliche Bodenspeicherung und Randbedingungen können Tiefen-Zeit-Muster erzeugen."
+        ],
+        "data_quality": [
+          "Diskrete Sensorpositionen, keine zusätzlich gemessenen Zwischentiefen.",
+          "Zeitpunkte pro Sensor sind nicht unabhängig; keine Signifikanzprüfung."
+        ]
+      },
+      "mode": "simulation",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/A3.2-02-SMT100-ZeitTiefe.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/A3.2-02-SMT100-ZeitTiefe.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/A3.2-02-SMT100-ZeitTiefe.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "Sensorpositionen",
+          "value": 36
+        },
+        {
+          "label": "Quellzeilen",
+          "value": 900
+        }
+      ],
+      "source": [
+        {
+          "relative_file": "2026-Simulation.json",
+          "sha256": "e7e65bebb38b54b28e40ffbdcb6265a1200eb617bcc21d0902f0a9436339c095",
+          "role": "simulation"
+        }
+      ]
+    },
+    {
+      "id": "A3.2-03-TDR-Wiederholungen",
+      "title": "Punktstreuung und Wiederholungen",
+      "caption": "20 Punkt-IDs mit fünf Messwiederholungen. Streuung und Wiederholspanne getrennt; keine 25 unabhängigen Orte.",
+      "question": "Wie viel Streuung liegt zwischen Orten, und wie viel bei Wiederholungen?",
+      "observations": [
+        "25 Ablesungen an 20 Punkt-IDs; 5 Punkte wiederholt.",
+        "Streuung der Punktmittel: s = 3,24 Prozentpunkte.",
+        "Prüfkandidaten nach 1,5×IQR: keine; alle Werte bleiben erhalten."
+      ],
+      "possible_mechanisms": [
+        "Kontakt, Einstecktiefe und Mikroskala könnten Wiederholabweichungen mitprägen."
+      ],
+      "data_quality": [
+        "20 Orte, keine 25 unabhängigen räumlichen Einheiten.",
+        "Min-Max der Wiederholungen ist kein Konfidenzintervall.",
+        "2025 anderer Datensatz; kein kausaler Jahres- oder Nutzungseffekt."
+      ],
+      "source_label": "Originalreferenz 2025 / Simulation 2026",
+      "display": {
+        "title": "Punktstreuung und Wiederholungen",
+        "caption": "20 Punkt-IDs mit fünf Messwiederholungen. Streuung und Wiederholspanne getrennt; keine 25 unabhängigen Orte.",
+        "observations": [
+          "25 Ablesungen an 20 Punkt-IDs; 5 Punkte wiederholt.",
+          "Streuung der Punktmittel: s = 3,24 Prozentpunkte.",
+          "Prüfkandidaten nach 1,5×IQR: keine; alle Werte bleiben erhalten."
+        ],
+        "possible_mechanisms": [
+          "Kontakt, Einstecktiefe und Mikroskala könnten Wiederholabweichungen mitprägen."
+        ],
+        "data_quality": [
+          "20 Orte, keine 25 unabhängigen räumlichen Einheiten.",
+          "Min-Max der Wiederholungen ist kein Konfidenzintervall.",
+          "2025 anderer Datensatz; kein kausaler Jahres- oder Nutzungseffekt."
+        ]
+      },
+      "mode": "mixed",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/A3.2-03-TDR-Wiederholungen.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/A3.2-03-TDR-Wiederholungen.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/A3.2-03-TDR-Wiederholungen.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "Räumliche Einheiten",
+          "value": 20
+        },
+        {
+          "label": "Ablesungen",
+          "value": 25
+        }
+      ],
+      "source": [
+        {
+          "relative_file": "2026-Simulation.json",
+          "sha256": "e7e65bebb38b54b28e40ffbdcb6265a1200eb617bcc21d0902f0a9436339c095",
+          "role": "simulation"
+        },
+        {
+          "relative_file": "2025-Infiltration1-Referenz.json",
+          "sha256": "0514d851b81b29ab9d793f6322515366712a9adf7e6bb287bb0de988a842a02b",
+          "role": "historical_reference"
+        }
+      ]
+    },
+    {
+      "id": "A3.2-04-Selhausen-Zeitreihen",
+      "title": "Selhausen: reales Tiefen-Zeit-Muster",
+      "caption": "Öffentliche Selhausen-Messungen an 5/10/20/50/100 cm. Abdeckung ≥36/48; Regen nur vollständig; NRT und Datenlücken erhalten.",
+      "question": "Welches Tiefen-Zeit-Muster zeigt ein tatsächlich gemessener Standort?",
+      "observations": [
+        "2025: 1825 von 1825 SWC-Layer-Tagen erfüllen den Abdeckungsfilter; 336 vollständige Regentage.",
+        "2026: 1345 von 1385 SWC-Layer-Tagen erfüllen den Abdeckungsfilter; 255 vollständige Regentage."
+      ],
+      "possible_mechanisms": [
+        "Zeitliche Speicherung, Drainage und meteorologische Randbedingungen können unterschiedliche Tiefenmuster erklären."
+      ],
+      "data_quality": [
+        "Selhausen ist ein unabhängiger öffentlicher Standort, nicht der Kursstandort.",
+        "36/48 ist ein Analysefilter, keine offizielle ICOS-QC-Schwelle.",
+        "2026 INTERIM/NRT nur bis 04.10.; keine Zukunftswerte oder Interpolation.",
+        "Regen nur bei 48/48, gleichzeitige Werte beweisen keine Ursache.",
+        "Räumlich beteiligte Sensorzahl (_N) verändert sich; verändertes Mittelungs-Support kann Kurven mitprägen."
+      ],
+      "source_label": "ICOS Selhausen, real",
+      "display": {
+        "title": "Selhausen: Tiefen-Zeit-Muster",
+        "caption": "Öffentliche Selhausen-Messungen an 5/10/20/50/100 cm. Abdeckung ≥36/48; Regen nur vollständig; NRT und Datenlücken erhalten.",
+        "observations": [
+          "2025: 1825 von 1825 SWC-Layer-Tagen erfüllen den Abdeckungsfilter; 336 vollständige Regentage.",
+          "2026: 1345 von 1385 SWC-Layer-Tagen erfüllen den Abdeckungsfilter; 255 vollständige Regentage."
+        ],
+        "possible_mechanisms": [
+          "Zeitliche Speicherung, Drainage und meteorologische Randbedingungen können unterschiedliche Tiefenmuster erklären."
+        ],
+        "data_quality": [
+          "36/48 ist ein Analysefilter, keine offizielle ICOS-QC-Schwelle.",
+          "2026 INTERIM/NRT nur bis 04.10.; keine Zukunftswerte oder Interpolation.",
+          "Regen nur bei 48/48, gleichzeitige Werte beweisen keine Ursache.",
+          "Räumlich beteiligte Sensorzahl (_N) verändert sich; verändertes Mittelungs-Support kann Kurven mitprägen."
+        ]
+      },
+      "mode": "measured",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/A3.2-04-Selhausen-Zeitreihen.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/A3.2-04-Selhausen-Zeitreihen.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/A3.2-04-Selhausen-Zeitreihen.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "2026 letzte Messung",
+          "value": "04.10.2026"
+        }
+      ],
+      "source": [
+        {
+          "relative_file": "ICOS-Selhausen-daily-summary.json",
+          "sha256": "5712e2e180a5bd12b31e8a6a0d709948ed7b050a7f113c292f89dff405e89eaf",
+          "role": "real_public_measurements"
+        }
+      ]
+    },
+    {
+      "id": "A3.2-05-Selhausen-Persistenz",
+      "title": "Selhausen: vertikale Kontraste und Persistenz",
+      "caption": "Gleichzeitige 5-100-cm-Kontraste und Lag-1-Korrelation nur über benachbarte gültige Kalendertage. Keine p-Werte oder Kausalbehauptung.",
+      "question": "Wie stark sind vertikale Kontraste und die zeitliche Abhängigkeit?",
+      "observations": [
+        "2025: θ(5)−θ(100), Median -7,9 Prozentpunkte, 365 gemeinsam gültige Tage.",
+        "2026: θ(5)−θ(100), Median -8,52 Prozentpunkte, 269 gemeinsam gültige Tage.",
+        "Lag-1-r reicht von 0,871 bis 0,991."
+      ],
+      "possible_mechanisms": [
+        "Speicherung und langsam veränderliche Randbedingungen könnten die Persistenz mitbestimmen."
+      ],
+      "data_quality": [
+        "Pearson-r deskriptiv; saisonale Trends nicht entfernt.",
+        "Nur benachbarte Kalendertage im selben Jahr, keine Sprünge über Fehlstellen.",
+        "Keine unabhängigen Tagesreplikate, kein p-Wert und kein Ursache-Nachweis.",
+        "Ungleiche Zeitfenster erlauben keinen kontrollierten Jahreseffekt."
+      ],
+      "source_label": "ICOS Selhausen, real",
+      "display": {
+        "title": "Selhausen: vertikale Kontraste und Persistenz",
+        "caption": "Gleichzeitige 5-100-cm-Kontraste und Lag-1-Korrelation nur über benachbarte gültige Kalendertage. Keine p-Werte oder Kausalbehauptung.",
+        "observations": [
+          "2025: θ(5)−θ(100), Median -7,9 Prozentpunkte, 365 gemeinsam gültige Tage.",
+          "2026: θ(5)−θ(100), Median -8,52 Prozentpunkte, 269 gemeinsam gültige Tage.",
+          "Lag-1-r reicht von 0,871 bis 0,991."
+        ],
+        "possible_mechanisms": [
+          "Speicherung und langsam veränderliche Randbedingungen könnten die Persistenz mitbestimmen."
+        ],
+        "data_quality": [
+          "Pearson-r deskriptiv; saisonale Trends nicht entfernt.",
+          "Nur benachbarte Kalendertage im selben Jahr, keine Sprünge über Fehlstellen.",
+          "Keine unabhängigen Tagesreplikate, kein p-Wert und kein Ursache-Nachweis.",
+          "Ungleiche Zeitfenster erlauben keinen kontrollierten Jahreseffekt."
+        ]
+      },
+      "mode": "measured",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/A3.2-05-Selhausen-Persistenz.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/A3.2-05-Selhausen-Persistenz.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/A3.2-05-Selhausen-Persistenz.pdf"
+      },
+      "key_stats": [
+        {
+          "label": "2025 gepaarte Tage",
+          "value": 365
+        },
+        {
+          "label": "2026 gepaarte Tage",
+          "value": 269
+        }
+      ],
+      "source": [
+        {
+          "relative_file": "ICOS-Selhausen-daily-summary.json",
+          "sha256": "5712e2e180a5bd12b31e8a6a0d709948ed7b050a7f113c292f89dff405e89eaf",
+          "role": "real_public_measurements"
+        }
+      ]
+    },
+    {
+      "id": "Mi-AM-Doppelring-2026-10-07",
+      "title": "Mi - Doppelring: Infiltrationsverlauf",
+      "caption": "37,5 mm in 60 min; 56 % davon in den ersten 12 min. Lokales Plateau bei 24–42 min, danach weitere Schwankungen. Innenring ohne Nachfüllung, Außenring zeitweise nachgefüllt.",
+      "question": "Wie verändern sich Wasserhöhe, kumulierte Infiltration und Intervallrate in den ersten 60 min?",
+      "observations": [
+        "In 60 min sinkt der Innenring-Wasserstand von 155 auf 117,5 mm. Kumulierte Infiltration: 37,5 mm; zeitgewichtete mittlere Rate: 0,625 mm/min.",
+        "Die ersten 12 min liefern 21 mm (56 % der Gesamtabnahme), die letzten 18 min nur 2,5 mm (6,7 %). Bei 24–42 min besteht eine lokale konstante Rate von 0,333 mm/min.",
+        "Innenring ohne Nachfüllung, Außenring zeitweise nachgefüllt. Späte Nullintervalle und Schwankungen bleiben in der Auswertung erhalten."
+      ],
+      "possible_mechanisms": [
+        "Fortschreitende Befeuchtung kann zur Abnahme beitragen; zugleich sinkt der Druckkopf im Innenring. Die einzelnen Einflüsse sind hier nicht getrennt bestimmbar.",
+        "Außenring-Wasserstand und Nachfüllung können die innere Rate beeinflussen. Mangels Nachfüllprotokoll kann kein konkreter Ausschlag diesem Vorgang zugeschrieben werden.",
+        "Das frühere Plateau und die letzte Intervallrate liefern keinen gesicherten Ks-Wert. Die Messreihe beschreibt die Infiltration unter den dokumentierten Bedingungen."
+      ],
+      "data_quality": [
+        "29 Ablesungen, 28 benachbarte Differenzen, eine Messstelle und ein Versuch. Ungleiche Zeitintervalle werden bei Fenstermitteln zeitgewichtet.",
+        "Bodenart, quantitative Messunsicherheit und unabhängige Wiederholungen nicht dokumentiert. Hypothetische Rundungsgrenzen stehen nur in der vertieften Sensitivitätsanalyse.",
+        "TENSIO 100 ist defekt; keine Messwerte. Aktuelle Lage und ungefährer Messzeitraum sind nach Nutzerangaben ergänzt."
+      ],
+      "source_label": "Gruppe 5 | 07.10.2026",
+      "display": {
+        "title": "Mi - Doppelring",
+        "caption": "37,5 mm in 60 min; 56 % davon in den ersten 12 min. Lokales Plateau bei 24–42 min, danach weitere Schwankungen. Innenring ohne Nachfüllung, Außenring zeitweise nachgefüllt.",
+        "observations": [
+          "In 60 min sinkt der Innenring-Wasserstand von 155 auf 117,5 mm. Kumulierte Infiltration: 37,5 mm; zeitgewichtete mittlere Rate: 0,625 mm/min.",
+          "Die ersten 12 min liefern 21 mm (56 % der Gesamtabnahme), die letzten 18 min nur 2,5 mm (6,7 %). Bei 24–42 min besteht eine lokale konstante Rate von 0,333 mm/min.",
+          "Innenring ohne Nachfüllung, Außenring zeitweise nachgefüllt. Späte Nullintervalle und Schwankungen bleiben in der Auswertung erhalten."
+        ],
+        "possible_mechanisms": [
+          "Fortschreitende Befeuchtung kann zur Abnahme beitragen; zugleich sinkt der Druckkopf im Innenring. Die einzelnen Einflüsse sind hier nicht getrennt bestimmbar.",
+          "Außenring-Wasserstand und Nachfüllung können die innere Rate beeinflussen. Mangels Nachfüllprotokoll kann kein konkreter Ausschlag diesem Vorgang zugeschrieben werden.",
+          "Das frühere Plateau und die letzte Intervallrate liefern keinen gesicherten Ks-Wert. Die Messreihe beschreibt die Infiltration unter den dokumentierten Bedingungen."
+        ],
+        "data_quality": [
+          "29 Ablesungen, 28 benachbarte Differenzen, eine Messstelle und ein Versuch. Ungleiche Zeitintervalle werden bei Fenstermitteln zeitgewichtet.",
+          "Bodenart, quantitative Messunsicherheit und unabhängige Wiederholungen nicht dokumentiert. Hypothetische Rundungsgrenzen stehen nur in der vertieften Sensitivitätsanalyse.",
+          "TENSIO 100 ist defekt; keine Messwerte. Aktuelle Lage und ungefährer Messzeitraum sind nach Nutzerangaben ergänzt."
+        ]
+      },
+      "deep_analysis": {
+        "schema": "feldhydrologie-double-ring-deep-analysis-v1",
+        "conclusion": "Die Infiltration verlangsamt sich stark: 56 % der gesamten Höhenabnahme entfallen auf die ersten 12 min. Das lokale Plateau bei 24–42 min ist kein Nachweis eines stationären Endzustands oder von Ks.",
+        "window_columns": [
+          "Zeitfenster [min]",
+          "Infiltration [mm]",
+          "Dauer [min]",
+          "Mittlere Rate [mm/min]",
+          "Anteil [%]"
+        ],
+        "window_rows": [
+          [
+            "0–12",
+            "21",
+            "12",
+            "1,750",
+            "56,00"
+          ],
+          [
+            "12–24",
+            "8",
+            "12",
+            "0,667",
+            "21,33"
+          ],
+          [
+            "24–42",
+            "6",
+            "18",
+            "0,333",
+            "16,00"
+          ],
+          [
+            "42–60",
+            "2,5",
+            "18",
+            "0,139",
+            "6,67"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Beobachtung · Verlauf",
+            "items": [
+              "24–42 min: sechs aufeinanderfolgende Intervalle mit je 1 mm Abnahme in 3 min. Diese lokale konstante Rate beträgt 1/3 mm/min.",
+              "42–60 min: nur 2,5 mm Höhenabnahme. Die mittlere Rate liegt rund 92 % unter der Rate der ersten 12 min; einzelne spätere Intervalle schwanken.",
+              "42–45 und 54–57 min: kein abgelesener Höhenunterschied. Das belegt keine vollständige Unterbrechung des Wasserflusses."
+            ]
+          },
+          {
+            "title": "Berechnung · Zeitgewichtung",
+            "items": [
+              "Δtᵢ = tᵢ − tᵢ₋₁; ΔIᵢ = hᵢ₋₁ − hᵢ; fᵢ = ΔIᵢ/Δtᵢ; I(t) = h₀ − h(t), da der Innenring nicht nachgefüllt wurde.",
+              "Mittlere Rate eines Fensters = gesamte Höhenabnahme / gesamte Dauer = Σ(fᵢ·Δtᵢ)/ΣΔtᵢ. Für 0–60 min: 37,5/60 = 0,625 mm/min.",
+              "Der ungewichtete Mittelwert der 28 Intervallraten ist 0,946 mm/min und liegt 51,4 % höher. Er zählt jedes 1-min- und 3-min-Intervall gleich und beschreibt deshalb nicht die mittlere Rate über die Messdauer."
+            ]
+          },
+          {
+            "title": "Interpretation · Messbedingungen",
+            "items": [
+              "Die Abnahme passt zu fortschreitender Befeuchtung und abnehmendem Einfluss der anfänglichen Saugspannung. Diese Mechanismen sind mit der Reihe allein nicht getrennt nachgewiesen.",
+              "Der Innenring-Wasserstand sinkt von 155 auf 117,5 mm, also um 24,2 %. Der Druckkopf verändert sich gleichzeitig mit der Zeit. Alle abgelesenen Wasserstände liegen über dem Kursansatz von 50–100 mm; der Rückgang lässt sich daher nicht allein der Bodeneigenschaft zuordnen.",
+              "Der Außenring wurde zeitweise nachgefüllt. Laut Skript verändert sein Wasserstand den lateralen Gradienten und kann die innere Rate beeinflussen. Ohne Zeit-, Mengen- und Wasserstandsprotokoll lassen sich keine bestimmten Ausschläge der Nachfüllung zuordnen.",
+              "Das Skript nennt geringe Schwankungen über eine Zeitspanne als Stabilitätshinweis. Die letzten Raten 0,167 / 0 / 0,167 mm/min zeigen hier keinen solchen Nachweis. Weder die letzte Rate noch 0,333 mm/min aus dem früheren Plateau werden als Ks übernommen."
+            ]
+          },
+          {
+            "title": "Sensitivität · ausdrücklich angenommene Ablesestufe",
+            "items": [
+              "Nur als Rechenannahme: Runden auf die nächste 0,5-mm-Stufe bedeutet ±0,25 mm je Wasserstand, damit bis zu ±0,5 mm je Differenz und ±0,167 mm/min je 3-min-Rate. Die tatsächliche Skalenauflösung und Instrumentengenauigkeit wurden nicht dokumentiert.",
+              "Unter genau dieser Annahme liegt die mittlere Rate der letzten 18 min zwischen 0,111 und 0,167 mm/min. Die Gesamtinfiltration läge zwischen 37 und 38 mm. Das sind Rundungsgrenzen, keine Konfidenzintervalle; andere Messfehler sind damit nicht erfasst."
+            ]
+          },
+          {
+            "title": "Reichweite · ein Versuch",
+            "items": [
+              "29 Ablesungen bilden eine Zeitreihe an einer Messstelle. Die 28 Differenzen sind keine 28 unabhängigen Wiederholungsversuche; benachbarte Differenzen teilen einen Wasserstands-Endpunkt.",
+              "Belastbar sind die dokumentierte Wasserstandsabnahme, ihre zeitliche Verteilung und die daraus berechneten Raten unter diesen Messbedingungen. Keine Aussage zur räumlichen Streuung, kein Konfidenzintervall für einen Standortmittelwert und kein gesicherter Ks-Wert."
+            ]
+          },
+          {
+            "title": "Kursbezug",
+            "items": [
+              "Kurshandbuch 2026/27, PDF S. 13: A2.2 verlangt eine geeignete Abbildung sowie getrennte Beobachtungs- und Interpretationslisten. Die vorhandene Abbildung mit drei Teilgrafiken bleibt erhalten.",
+              "Kurshandbuch PDF S. 64, Abschnitt 6.4: mindestens zwei verschiedene Druckhöhen bis zum stationären Zustand. Skript IFBL, PDF S. 68–70: Wasserstände, Außenringwirkung und Stabilität; S. 69: stationäre Infiltrationsrate nicht automatisch gleich Ks.",
+              "Messprotokolle PDF S. 8–9: Tabelle 7. Die Ergänzung wertet den tatsächlich aufgenommenen Verlauf mit sinkendem Innenring-Wasserstand aus; sie ergänzt keine nicht gemessenen Druckstufen."
+            ]
+          },
+          {
+            "title": "Maisacker · Standort und Zeitraum bestätigt",
+            "items": [
+              "Messstelle im Maisacker bei Wittibreut; Nutzer bestätigt ungefähr 09:30–10:30 MESZ. Korrigierte Lage aus aktuellem Kompass: 48°19′56″N, 13°00′04″E; diese Lage gilt für die Auswertung.",
+              "TENSIO 100 defekt und nicht verwendet. Keine verwertbaren Messwerte; keine Nullwerte. Sorte, Nutzungsrichtung, Bodenart, Anfangsfeuchte und Wurzel-/Fahrspurposition bleiben offen."
+            ]
+          },
+          {
+            "title": "Erweiterung · Meteorologie und Modellprüfung",
+            "items": [
+              "Nahe LfL-Station Wittibreut 171, ungefähr 0,1 km: die sieben vollständigen Vortage zeigen 0,0 mm Niederschlag; FAO56-Referenz-ET0 summiert 13,8 mm. Das ist meteorologischer Kontext, keine gemessene Bodenwasserbilanz.",
+              "09:30–10:30 MESZ: sieben ungeprüfte Stations-Zeitlabels mit 21,7–25,4 °C, 60–65 % rF, 0,6–1,5 m/s Wind und 284–428 W/m² Globalstrahlung. Bereich der angezeigten Werte, kein exakt synchronisierter Versuchsmittelwert.",
+              "Der freie Philip-Fit ergibt A≈−0,276 mm/min; bei nichtnegativen Parametern liegt A an der Grenze 0. Empirische exponentielle Endparameter ändern sich mit der Messdauer. Weder Fitparameter noch lokale Plateaus sind ein Nachweis von Ks.",
+              "Die vollständige deutschsprachige Auswertung verbindet Biologie, Physik, Chemie, Mathematik und Meteorologie direkt in dieser Analyseansicht; das 14-seitige A4-PDF enthält denselben vollständigen Bericht."
+            ]
+          }
+        ],
+        "source_sha256": "0443e242b3d6e39a75017010d05c070c6dbab5facc530559985e95fb769cc588",
+        "quantitative_sha256": "24bd981cdc2194806d4a509e72d85a08f7233606456e5da549d5a3ff407fdf76",
+        "hypothetical_rounding_step_mm": 0.5,
+        "instrument_precision_confirmed": false,
+        "independent_experiments": 1,
+        "Ks": null,
+        "course_page_numbers_are": "1-based PDF pages"
+      },
+      "mode": "measured",
+      "files": {
+        "svg": "../13-Analyse/Probelauf/Figuren/Mi-AM-Doppelring-2026-10-07.svg",
+        "png": "../13-Analyse/Probelauf/Figuren/Mi-AM-Doppelring-2026-10-07.png",
+        "pdf": "../13-Analyse/Probelauf/Figuren/Mi-AM-Doppelring-2026-10-07.pdf",
+        "auswertung": "../13-Analyse/Probelauf/Figuren/Doppelring-Auswertung-2026-10-07.pdf",
+        "interdisciplinary": "Maisfeld-Auswertung.html"
+      },
+      "key_stats": [
+        {
+          "label": "Ablesungen",
+          "value": 29
+        },
+        {
+          "label": "Intervalle",
+          "value": 28
+        },
+        {
+          "label": "Messdauer",
+          "value": "60 min"
+        },
+        {
+          "label": "Kumulierte Infiltration",
+          "value": "37,5 mm"
+        }
+      ],
+      "source": [
+        {
+          "label": "Gruppe 5 | 07.10.2026 | Doppelring-Messreihe",
+          "relative_file": "../../08-Stationen/2026-10-07-AM-Infiltration1/Doppelring-Messwerte-2026-10-07.json",
+          "sha256": "0443e242b3d6e39a75017010d05c070c6dbab5facc530559985e95fb769cc588",
+          "role": "current_measurements"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "di-am-real",
+      "title": "Di · Vormittag",
+      "figures": [
+        "Di-AM-Reale-Kalibrierung",
+        "Di-AM-Referenzvergleich",
+        "Di-AM-KA6-TRD1"
+      ]
+    },
+    {
+      "id": "a22",
+      "title": "A2.2 · Mittwochvormittag",
+      "figures": [
+        "Mi-AM-Doppelring-2026-10-07"
+      ]
+    },
+    {
+      "id": "vertiefung",
+      "title": "A3.2 · Raumzeitliche Heterogenität",
+      "figures": [
+        "A3.2-01-Bodenwasser-Snapshot",
+        "A3.2-02-SMT100-ZeitTiefe",
+        "A3.2-03-TDR-Wiederholungen",
+        "A3.2-04-Selhausen-Zeitreihen",
+        "A3.2-05-Selhausen-Persistenz"
+      ]
+    }
+  ],
+  "public_citations": [
+    {
+      "id": "L2_2025",
+      "pid": "11676/nUzNGoFrYE29WG5LGK0C9MtY",
+      "url": "https://data.icos-cp.eu/objects/nUzNGoFrYE29WG5LGK0C9MtY",
+      "citation": "Schmidt, M., Bagheri, S., Becker, N., Dolfus, D., Esser, O., Graf, A., Haustein, A., Kettler, M., Kummer, S., Mattes, J. (2026). ETC L2 Meteo from Selhausen Juelich, 2018-12-31–2025-12-31, ICOS RI, https://hdl.handle.net/11676/nUzNGoFrYE29WG5LGK0C9MtY",
+      "data_level": 2
+    },
+    {
+      "id": "L2_INTERIM_2026",
+      "pid": "11676/BevTXz1ga1toB_auo-R6DZf1",
+      "url": "https://data.icos-cp.eu/objects/BevTXz1ga1toB_auo-R6DZf1",
+      "citation": "Schmidt, M., Bagheri, S., Becker, N., Dolfus, D., Esser, O., Graf, A., Haustein, A., Kettler, M., Kummer, S., Mattes, J. (2026). ETC L2 Meteo from Selhausen Juelich, 2018-12-31–2026-08-31, ICOS RI, https://hdl.handle.net/11676/BevTXz1ga1toB_auo-R6DZf1",
+      "data_level": 2
+    },
+    {
+      "id": "NRT_2026",
+      "pid": "11676/e6TaNXdN7WLqPVWuSOp8CijV",
+      "url": "https://data.icos-cp.eu/objects/e6TaNXdN7WLqPVWuSOp8CijV",
+      "citation": "Schmidt, M., Bagheri, S., Becker, N., Dolfus, D., Graf, A., Haustein, A., Kummer, S. (2026). ETC NRT Meteo from Selhausen Juelich, 2026-08-31–2026-10-04, ICOS RI, https://hdl.handle.net/11676/e6TaNXdN7WLqPVWuSOp8CijV",
+      "data_level": 1
+    }
+  ],
+  "public_attribution": "Schmidt et al. · ICOS RI · CC BY 4.0; derived figures and daily coverage filters by Gruppe 5"
+}
