@@ -1,0 +1,4 @@
+# Preserve exported page and resource bytes, including original PDF/SVG content.
+*.html -text
+assets/embedded/* -text
+assets/materials/* -text
