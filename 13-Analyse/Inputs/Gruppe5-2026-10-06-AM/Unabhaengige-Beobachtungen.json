@@ -1,0 +1,43 @@
+{
+  "matrix_potential": {
+    "sample": "ungesiebter Ausgangsboden, getrennt von Kalibrierprobe",
+    "probe_kept_inserted": true,
+    "paired_with_calibration_theta": false,
+    "stable_equilibrium_value_confirmed": false,
+    "full_numeric_time_series_received": false,
+    "observations": [
+      {
+        "record_id": "original-soil-psi-1",
+        "value_kpa": -4.3,
+        "approximate": false,
+        "timestamp": null
+      },
+      {
+        "record_id": "original-soil-psi-2",
+        "value_kpa": -11,
+        "approximate": true,
+        "timestamp": null
+      }
+    ],
+    "elapsed_time": "binnen weniger Sekunden, genaue Dauer unbekannt",
+    "noted_during_point": 2,
+    "continuous_transient_observation": true,
+    "retention_curve_eligible": false
+  },
+  "pure_water": {
+    "record_id": "group5-pure-water-control",
+    "theta_meter_m3_m3": 0.678,
+    "RAW": 3541.1188450631607,
+    "RAW_display_integer": 3541,
+    "raw_basis": "derived_inverse_of_theta_meter",
+    "same_teros11_confirmed": true,
+    "measuring_part_fully_immersed_confirmed": true,
+    "display_mode": "mineral soil",
+    "interpretation_source": "user reports normal reading in mineral-soil mode",
+    "timestamp": null,
+    "soil_measurement_point": false,
+    "soil_mass_balance_changed": false,
+    "theta_ref_m3_m3": null,
+    "soil_calibration_validation": false
+  }
+}

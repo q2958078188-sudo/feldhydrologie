@@ -1,0 +1,199 @@
+{
+  "schema_version": "bodensensorik-ka6-v1",
+  "year": 2026,
+  "status": "course_lookup_confirmed",
+  "source": {
+    "file": "KA6_Tabellenwerte.xlsx",
+    "sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+    "read_only": true,
+    "source_sheet": "Parameter mineralisch",
+    "type": "course lookup workbook",
+    "document": "IFBL_Messprotokolle.pdf",
+    "table": 3,
+    "pdf_page": 3,
+    "source_locator": "li/outputs/KA6_Tabellenwerte.xlsx"
+  },
+  "metadata": {
+    "soil_type": {
+      "original": "Ts3",
+      "status": "Fingerprobe estimate"
+    },
+    "dry_density_class": {
+      "original": 1,
+      "source": "explicit user confirmation, all four columns"
+    },
+    "edition": {
+      "original": "KA6, Kursdatei"
+    },
+    "page": {
+      "original": null
+    }
+  },
+  "column_soil_codes": {
+    "Kalibrierprobe": "Ts3 (geschätzt)",
+    "Sand": "Ss",
+    "Schluff": "Uu",
+    "Ton": "Tt"
+  },
+  "trd_class_by_column": {
+    "Kalibrierprobe": 1,
+    "Sand": 1,
+    "Schluff": 1,
+    "Ton": 1
+  },
+  "rows": [
+    {
+      "record_id": "course-ka6-trd1-tw",
+      "indicator_code": "TW",
+      "indicator": "Todwassergehalt (TW)",
+      "values": {
+        "Kalibrierprobe": 33,
+        "Sand": 5,
+        "Schluff": 13,
+        "Ton": 36
+      },
+      "unit": "Vol.-%",
+      "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+      "source_file": "KA6_Tabellenwerte.xlsx",
+      "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+      "source_sheet": "Parameter mineralisch",
+      "source_row": null,
+      "source_fields": {
+        "Kalibrierprobe": "Parameter mineralisch!AA41",
+        "Sand": "Parameter mineralisch!AA12",
+        "Schluff": "Parameter mineralisch!AA29",
+        "Ton": "Parameter mineralisch!AA35"
+      },
+      "has_numeric_data": true,
+      "included_comparison": true,
+      "measured_capacity": false,
+      "warnings": [
+        "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+      ]
+    },
+    {
+      "record_id": "course-ka6-trd1-nfk",
+      "indicator_code": "nFK",
+      "indicator": "Nutzbare Feldkapazität (nFK)",
+      "values": {
+        "Kalibrierprobe": 17,
+        "Sand": 9,
+        "Schluff": 30,
+        "Ton": 20
+      },
+      "unit": "Vol.-%",
+      "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+      "source_file": "KA6_Tabellenwerte.xlsx",
+      "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+      "source_sheet": "Parameter mineralisch",
+      "source_row": null,
+      "source_fields": {
+        "Kalibrierprobe": "Parameter mineralisch!Q41",
+        "Sand": "Parameter mineralisch!Q12",
+        "Schluff": "Parameter mineralisch!Q29",
+        "Ton": "Parameter mineralisch!Q35"
+      },
+      "has_numeric_data": true,
+      "included_comparison": true,
+      "measured_capacity": false,
+      "warnings": [
+        "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+      ]
+    },
+    {
+      "record_id": "course-ka6-trd1-fk",
+      "indicator_code": "FK",
+      "indicator": "Feldkapazität (FK)",
+      "values": {
+        "Kalibrierprobe": 50,
+        "Sand": 14,
+        "Schluff": 43,
+        "Ton": 56
+      },
+      "unit": "Vol.-%",
+      "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+      "source_file": "KA6_Tabellenwerte.xlsx",
+      "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+      "source_sheet": "Parameter mineralisch",
+      "source_row": null,
+      "source_fields": {
+        "Kalibrierprobe": "Parameter mineralisch!V41",
+        "Sand": "Parameter mineralisch!V12",
+        "Schluff": "Parameter mineralisch!V29",
+        "Ton": "Parameter mineralisch!V35"
+      },
+      "has_numeric_data": true,
+      "included_comparison": true,
+      "measured_capacity": false,
+      "warnings": [
+        "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+      ]
+    },
+    {
+      "record_id": "course-ka6-trd1-lk",
+      "indicator_code": "LK",
+      "indicator": "Luftkapazität (LK)",
+      "values": {
+        "Kalibrierprobe": 15,
+        "Sand": 36,
+        "Schluff": 10,
+        "Ton": 8
+      },
+      "unit": "Vol.-%",
+      "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+      "source_file": "KA6_Tabellenwerte.xlsx",
+      "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+      "source_sheet": "Parameter mineralisch",
+      "source_row": null,
+      "source_fields": {
+        "Kalibrierprobe": "Parameter mineralisch!L41",
+        "Sand": "Parameter mineralisch!L12",
+        "Schluff": "Parameter mineralisch!L29",
+        "Ton": "Parameter mineralisch!L35"
+      },
+      "has_numeric_data": true,
+      "included_comparison": true,
+      "measured_capacity": false,
+      "warnings": [
+        "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+      ]
+    },
+    {
+      "record_id": "course-ka6-trd1-gpv",
+      "indicator_code": "GPV",
+      "indicator": "Gesamtporenvolumen (GPV)",
+      "values": {
+        "Kalibrierprobe": 65,
+        "Sand": 50,
+        "Schluff": 53,
+        "Ton": 64
+      },
+      "unit": "Vol.-%",
+      "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+      "source_file": "KA6_Tabellenwerte.xlsx",
+      "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+      "source_sheet": "Parameter mineralisch",
+      "source_row": null,
+      "source_fields": {
+        "Kalibrierprobe": "Parameter mineralisch!V41+L41",
+        "Sand": "Parameter mineralisch!V12+L12",
+        "Schluff": "Parameter mineralisch!V29+L29",
+        "Ton": "Parameter mineralisch!V35+L35"
+      },
+      "has_numeric_data": true,
+      "included_comparison": true,
+      "measured_capacity": false,
+      "warnings": [
+        "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+      ]
+    }
+  ],
+  "numeric_cell_count": 20,
+  "warnings": [
+    "Typische Kurswerte; nur näherungsweise auf künstliche Packung anwendbar.",
+    "Ts3 geschätzt, keine gemessenen Kornfraktionsanteile; keine Übertragung auf andere Proben.",
+    "Keine gemessene Retentionskurve; keine zusätzliche organische Korrektur vorgenommen."
+  ],
+  "current_measurements": true,
+  "values_are_course_lookup_not_measurements": true
+}

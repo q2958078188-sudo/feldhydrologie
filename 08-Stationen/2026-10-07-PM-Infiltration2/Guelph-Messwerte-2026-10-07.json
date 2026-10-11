@@ -1,0 +1,972 @@
+{
+  "schema_version": "infiltration1-v1",
+  "station": "Mittwoch · Nachmittag · Infiltration 2",
+  "station_id": "mi-pm",
+  "instrument": "Guelph-Permeameter",
+  "station_instrument_assignment": {
+    "status": "confirmed_by_current_field_protocol_and_user",
+    "instrument": "Guelph-Permeameter",
+    "slot": "Mittwoch Nachmittag",
+    "date": "2026-10-07",
+    "not_inferred_from_2025_schedule": true
+  },
+  "data_year": 2026,
+  "status": "current_measurements",
+  "current_measurements": true,
+  "display_ready": true,
+  "source": {
+    "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+    "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+    "type": "original handwritten field protocol with user-confirmed transcription",
+    "data_year": 2026,
+    "date": "2026-10-07",
+    "table": 5,
+    "fields": {
+      "t_min": "A",
+      "reservoir_level_cm": "B"
+    },
+    "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt."
+  },
+  "metadata": {
+    "date": "2026-10-07",
+    "site": "Maisacker; genaue Lage nicht dokumentiert",
+    "land_use": "Maisacker",
+    "soil_description": null,
+    "soil_structure": null,
+    "group": 5,
+    "reported_start_time": null,
+    "reported_end_time": null,
+    "timezone": "Europe/Berlin",
+    "coordinates": null,
+    "crs": null,
+    "instrument_serial": null,
+    "weather": null,
+    "note": "16 Ablesungen, t=0-60 min. Außenrohr bis 12 min, ab 16 min Innenrohr; keine gemeinsame Berechnung über den Wechsel."
+  },
+  "parameters": {
+    "z_cm": 30,
+    "r_cm": 2.75,
+    "observed_H_cm": 12,
+    "outer_area_cm2": null,
+    "inner_area_cm2": 2.16,
+    "reservoir": "mixed",
+    "reservoir_note": "Außen 0-12 min; Innen ab 16 min",
+    "reported_H_r": null,
+    "H_r": 4.363636363636363,
+    "H_r_exact": "48/11",
+    "H_r_status": "computed_from_confirmed_H_and_r",
+    "alpha_per_cm": 0.12,
+    "reported_C": null,
+    "C": 1.531275200706957,
+    "alpha_C_status": "provisional_estimate_not_measurement",
+    "soil_category_provisional": 3,
+    "alpha_basis": "Vorläufiger Kurs-Richtwert Kategorie 3 nach bestätigter Landnutzung Maisacker; Textur und Gefüge am Bohrloch nicht bestimmt.",
+    "C_formula": "(x/(2.074+0.093*x))^0.754; x=48/11",
+    "C_basis": "Vorläufiger Formfaktor aus nominaler Kurskategorie 3; keine Feldmessung.",
+    "course_combined_reservoir_area_cm2": 35.22,
+    "course_combined_area_used_in_calculation": false,
+    "outside_mode_unconfirmed_combined": true,
+    "area_basis": "Innen X=2,16 cm² vom Nutzer als Kurswert bestätigt; effektive Außenfläche noch offen.",
+    "head_stage_association": "H=12 cm für diese Messung bestätigt; keine weiteren Druckhöhen oder H-Wechsel dokumentiert.",
+    "source": {
+      "type": "user-confirmed device parameters and course nominal area",
+      "date": "2026-10-07",
+      "alpha_reference": "01-Kursmaterial/Skript_IFBL.pdf, Seite 73, Tabelle 5-16",
+      "C_reference": "01-Kursmaterial/GuelphPermeameterQuickCalculator-ver2.xls, GP Quick Calculator, H34/H36"
+    }
+  },
+  "measurements": [
+    {
+      "id": "G-01",
+      "t_min": 0,
+      "reservoir_level_cm": 22.9,
+      "head_id": "H12",
+      "reservoir": "A",
+      "reservoir_mode_label": "Außen",
+      "observed_H_cm": 12,
+      "area_cm2": null,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": null,
+      "dz_cm": null,
+      "volume_cm3": null,
+      "q_cm3_min": null,
+      "interval_start_min": null,
+      "interval_end_min": null,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 1
+      },
+      "raw": {
+        "t_min": 0,
+        "W_text": "22.90",
+        "reservoir_level_cm": 22.9,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "initial",
+        "equation": null,
+        "reservoir_area_cm2": null,
+        "area_source": null,
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "initial"
+    },
+    {
+      "id": "G-02",
+      "t_min": 4,
+      "reservoir_level_cm": 22.9,
+      "head_id": "H12",
+      "reservoir": "A",
+      "reservoir_mode_label": "Außen",
+      "observed_H_cm": 12,
+      "area_cm2": null,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 0.0,
+      "volume_cm3": 0.0,
+      "q_cm3_min": 0.0,
+      "interval_start_min": 0,
+      "interval_end_min": 4,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 2
+      },
+      "raw": {
+        "t_min": 4,
+        "W_text": "22.9",
+        "reservoir_level_cm": 22.9,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "outside_area_unknown",
+        "equation": "Gleiche abgelesene W-Werte: Δz=0; V=0 und Q=0 unabhängig von der unbekannten positiven Fläche.",
+        "reservoir_area_cm2": null,
+        "area_source": null,
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "outside_area_unknown"
+    },
+    {
+      "id": "G-03",
+      "t_min": 8,
+      "reservoir_level_cm": 22.9,
+      "head_id": "H12",
+      "reservoir": "A",
+      "reservoir_mode_label": "Außen",
+      "observed_H_cm": 12,
+      "area_cm2": null,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 0.0,
+      "volume_cm3": 0.0,
+      "q_cm3_min": 0.0,
+      "interval_start_min": 4,
+      "interval_end_min": 8,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 3
+      },
+      "raw": {
+        "t_min": 8,
+        "W_text": "22.9",
+        "reservoir_level_cm": 22.9,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "outside_area_unknown",
+        "equation": "Gleiche abgelesene W-Werte: Δz=0; V=0 und Q=0 unabhängig von der unbekannten positiven Fläche.",
+        "reservoir_area_cm2": null,
+        "area_source": null,
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "outside_area_unknown"
+    },
+    {
+      "id": "G-04",
+      "t_min": 12,
+      "reservoir_level_cm": 23.0,
+      "head_id": "H12",
+      "reservoir": "A",
+      "reservoir_mode_label": "Außen",
+      "observed_H_cm": 12,
+      "area_cm2": null,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 0.1,
+      "volume_cm3": null,
+      "q_cm3_min": null,
+      "interval_start_min": 8,
+      "interval_end_min": 12,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 4
+      },
+      "raw": {
+        "t_min": 12,
+        "W_text": "23.0",
+        "reservoir_level_cm": 23.0,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "outside_area_unknown",
+        "equation": null,
+        "reservoir_area_cm2": null,
+        "area_source": null,
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "outside_area_unknown"
+    },
+    {
+      "id": "G-05",
+      "t_min": 16,
+      "reservoir_level_cm": 23.0,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": null,
+      "volume_cm3": null,
+      "q_cm3_min": null,
+      "interval_start_min": 12,
+      "interval_end_min": 16,
+      "measured_at": null,
+      "event": "Wechsel zum Innenrohr; I ist die Markierung, kein Dezimalwert.",
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 5
+      },
+      "raw": {
+        "t_min": 16,
+        "W_text": "23 I",
+        "reservoir_level_cm": 23.0,
+        "reservoir_marker": "I"
+      },
+      "calculation": {
+        "status": "reservoir_transition_not_computed",
+        "equation": null,
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "reservoir_transition_not_computed"
+    },
+    {
+      "id": "G-06",
+      "t_min": 20,
+      "reservoir_level_cm": 23.2,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 0.2,
+      "volume_cm3": 0.432,
+      "q_cm3_min": 0.108,
+      "interval_start_min": 16,
+      "interval_end_min": 20,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 6
+      },
+      "raw": {
+        "t_min": 20,
+        "W_text": "23.2",
+        "reservoir_level_cm": 23.2,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-07",
+      "t_min": 24,
+      "reservoir_level_cm": 23.4,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 0.2,
+      "volume_cm3": 0.432,
+      "q_cm3_min": 0.108,
+      "interval_start_min": 20,
+      "interval_end_min": 24,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 7
+      },
+      "raw": {
+        "t_min": 24,
+        "W_text": "23.4",
+        "reservoir_level_cm": 23.4,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-08",
+      "t_min": 28,
+      "reservoir_level_cm": 27.1,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 3.7,
+      "volume_cm3": 7.992,
+      "q_cm3_min": 1.998,
+      "interval_start_min": 24,
+      "interval_end_min": 28,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 8
+      },
+      "raw": {
+        "t_min": 28,
+        "W_text": "27.1",
+        "reservoir_level_cm": 27.1,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-09",
+      "t_min": 32,
+      "reservoir_level_cm": 29.9,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.8,
+      "volume_cm3": 6.048,
+      "q_cm3_min": 1.512,
+      "interval_start_min": 28,
+      "interval_end_min": 32,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 9
+      },
+      "raw": {
+        "t_min": 32,
+        "W_text": "29.9",
+        "reservoir_level_cm": 29.9,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-10",
+      "t_min": 36,
+      "reservoir_level_cm": 32.5,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.6,
+      "volume_cm3": 5.616,
+      "q_cm3_min": 1.404,
+      "interval_start_min": 32,
+      "interval_end_min": 36,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 10
+      },
+      "raw": {
+        "t_min": 36,
+        "W_text": "32.5",
+        "reservoir_level_cm": 32.5,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-11",
+      "t_min": 40,
+      "reservoir_level_cm": 35.2,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.7,
+      "volume_cm3": 5.832,
+      "q_cm3_min": 1.458,
+      "interval_start_min": 36,
+      "interval_end_min": 40,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 11
+      },
+      "raw": {
+        "t_min": 40,
+        "W_text": "35.2",
+        "reservoir_level_cm": 35.2,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-12",
+      "t_min": 44,
+      "reservoir_level_cm": 37.8,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.6,
+      "volume_cm3": 5.616,
+      "q_cm3_min": 1.404,
+      "interval_start_min": 40,
+      "interval_end_min": 44,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 12
+      },
+      "raw": {
+        "t_min": 44,
+        "W_text": "37.8",
+        "reservoir_level_cm": 37.8,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-13",
+      "t_min": 48,
+      "reservoir_level_cm": 39.8,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.0,
+      "volume_cm3": 4.32,
+      "q_cm3_min": 1.08,
+      "interval_start_min": 44,
+      "interval_end_min": 48,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 13
+      },
+      "raw": {
+        "t_min": 48,
+        "W_text": "39.8",
+        "reservoir_level_cm": 39.8,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-14",
+      "t_min": 52,
+      "reservoir_level_cm": 42.1,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.3,
+      "volume_cm3": 4.968,
+      "q_cm3_min": 1.242,
+      "interval_start_min": 48,
+      "interval_end_min": 52,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 14
+      },
+      "raw": {
+        "t_min": 52,
+        "W_text": "42.1",
+        "reservoir_level_cm": 42.1,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-15",
+      "t_min": 56,
+      "reservoir_level_cm": 44.3,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.2,
+      "volume_cm3": 4.752,
+      "q_cm3_min": 1.188,
+      "interval_start_min": 52,
+      "interval_end_min": 56,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 15
+      },
+      "raw": {
+        "t_min": 56,
+        "W_text": "44.3",
+        "reservoir_level_cm": 44.3,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    },
+    {
+      "id": "G-16",
+      "t_min": 60,
+      "reservoir_level_cm": 46.4,
+      "head_id": "H12",
+      "reservoir": "I",
+      "reservoir_mode_label": "Innen",
+      "observed_H_cm": 12,
+      "area_cm2": 2.16,
+      "reported_dt_min": null,
+      "reported_dz_cm": null,
+      "reported_volume_cm3": null,
+      "reported_q_cm3_min": null,
+      "dt_min": 4,
+      "dz_cm": 2.1,
+      "volume_cm3": 4.536,
+      "q_cm3_min": 1.134,
+      "interval_start_min": 56,
+      "interval_end_min": 60,
+      "measured_at": null,
+      "event": null,
+      "steady_selected": null,
+      "source": {
+        "file": "08-Stationen/2026-10-07-PM-Infiltration2/Quellen/Guelph-Messprotokoll-2026-10-07.jpg",
+        "sha256": "3312740656258c4402f846df414d6dfae6bdffbd7b04dbd7cdd89476907c836a",
+        "type": "original handwritten field protocol with user-confirmed transcription",
+        "data_year": 2026,
+        "date": "2026-10-07",
+        "table": 5,
+        "fields": {
+          "t_min": "A",
+          "reservoir_level_cm": "B"
+        },
+        "note": "Nur A/B handschriftlich erfasst; Intervallspalten C-F daraus berechnet. I bei 16 min wurde als Wechsel zum Innenrohr bestätigt.",
+        "data_row": 16
+      },
+      "raw": {
+        "t_min": 60,
+        "W_text": "46.4",
+        "reservoir_level_cm": 46.4,
+        "reservoir_marker": null
+      },
+      "calculation": {
+        "status": "computed_same_inner_reservoir",
+        "equation": "Q = (W_i - W_(i-1)) * A_I / (t_i - t_(i-1))",
+        "reservoir_area_cm2": 2.16,
+        "area_source": "vom Nutzer bestätigter nominaler Kurswert für das Innenrohr",
+        "reading_direction": "W steigt bei absinkendem Reservoirwasser; als positive Absenkung Δz erfasst.",
+        "not_a_kfs_value": true
+      },
+      "interval_quality": "computed_same_inner_reservoir"
+    }
+  ],
+  "tdr": {
+    "instrument": "TDR",
+    "status": "no_current_readings_supplied",
+    "metadata": {
+      "date": "2026-10-07",
+      "reported_time": null,
+      "site": null,
+      "group": 5,
+      "depth_cm": null,
+      "note": "Keine aktuellen TDR-Ablesungen übermittelt."
+    },
+    "points": [],
+    "aggregation": null,
+    "limitations": [
+      "Keine TDR-Werte aus 2025 oder einer Simulation übernommen."
+    ]
+  },
+  "reported_summaries": null,
+  "analysis": {
+    "steady_state_verified": false,
+    "steady_checks": [],
+    "steady_confirmation_status": "not_confirmed",
+    "kfs_cm_min": null,
+    "kfs_status": "Nicht berechnet: stationäres Fenster nicht bestätigt; α/C vorläufige Richtwerte.",
+    "two_head_result": null,
+    "transitions": [
+      {
+        "from_min": 12,
+        "to_min": 16,
+        "status": "user-confirmed reservoir change: Außen → Innen",
+        "cause": "reservoir_change",
+        "reservoir_before": "A",
+        "reservoir_after": "I",
+        "interval_excluded": true,
+        "new_head_cm": null,
+        "not_a_two_head_measurement": true
+      }
+    ],
+    "known_inner_summary": {
+      "start_min": 16,
+      "end_min": 60,
+      "duration_min": 44,
+      "interval_count": 11,
+      "volume_cm3": 50.544,
+      "mean_q_cm3_min": 1.1487272727272728,
+      "q_min_cm3_min": 0.108,
+      "q_max_cm3_min": 1.998,
+      "display_label": "Innenrohr · 16-60 min",
+      "summary_scope": "Nur die elf vollständig berechenbaren Innenrohrintervalle, keine gesamte Messung."
+    },
+    "total_uptake_cm3": null,
+    "whole_experiment_summary_status": "not_available_outside_effective_area_unknown"
+  },
+  "limitations": [
+    "Außen bezeichnet die vom Nutzer gemeldete Betriebsart. Ob dies das Kombinationsreservoir mit 35,22 cm² meint, ist noch nicht bestätigt; keine automatische Flächenzuordnung.",
+    "12-16 min liegt über dem Reservoirwechsel und wird nicht als einheitliches Intervall berechnet.",
+    "α=0,12 und C=1,531275200706957 sind vorläufige Kursrichtwerte, keine bestätigte Bodentextur/Gefügeklasse und keine Messwerte.",
+    "Innenrohrsumme 50,544 cm³ betrifft nur 16-60 min; Aufnahme über die ganze Messung ist unbekannt.",
+    "Keine gemessene TDR-Reihe, bestätigtes stationäres Fenster oder Kfs-Angabe übermittelt."
+  ]
+}

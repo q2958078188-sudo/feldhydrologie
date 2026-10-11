@@ -1,0 +1,1282 @@
+{
+  "schema_version": "bodensensorik-calibration-v1",
+  "year": 2026,
+  "status": "current_measurements",
+  "source": {
+    "file": "initial-sample-calculations.json",
+    "sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+    "read_only": true,
+    "type": "user-confirmed field records",
+    "date": "2026-10-06",
+    "source_locator": "li/work/table2-field-qa/initial-sample-calculations.json"
+  },
+  "metadata": {
+    "group": {
+      "original": 5
+    },
+    "observed_datetime": {
+      "original": "2026-10-06"
+    },
+    "time_interval": {
+      "original": "09:00 - ca. 12:00",
+      "end_is_approximate": true
+    },
+    "soil_type": {
+      "original": "Ts3 (geschätzt)"
+    },
+    "sensor_model": {
+      "original": "TEROS 11"
+    },
+    "sensor_id": {
+      "original": null
+    },
+    "operator": {
+      "original": null
+    },
+    "logger_port": {
+      "original": null
+    }
+  },
+  "parameters": {
+    "mBoden0_kg": {
+      "value": 6.5,
+      "original": "6.5",
+      "basis": "sieved net wet sample"
+    },
+    "Vges_dm3": {
+      "value": 5.5,
+      "original": "5.5",
+      "basis": "packed volume, not remeasured after dosing"
+    },
+    "w0_kg_kg": {
+      "value": 0.1161524500907441,
+      "original": "64/551",
+      "basis": "Course laboratory reference for the same calibration soil material"
+    },
+    "rho_water_kg_dm3": {
+      "value": 1.0,
+      "original": 1,
+      "basis": "course calculation approximation"
+    }
+  },
+  "initial_water_g": 676.4227642276422,
+  "mass_dry_kg": 5.823577235772357,
+  "rho_b_pack_kg_dm3": 1.0588322246858832,
+  "points": [
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-0",
+      "point_id": 0,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/0",
+      "timestamp": null,
+      "water_added_ml": 0.0,
+      "water_added_g": 0.0,
+      "cumulative_added_water_g": 0.0,
+      "total_water_g": 676.4227642276422,
+      "theta_ref_m3_m3": 0.1229859571322986,
+      "theta_reported_m3_m3": 0.091,
+      "RAW": 2027.8422273781903,
+      "RAW_display_integer": 2028,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.0319859571322986,
+      "theta_ledger_difference_m3_m3": -0.0319859571322986,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/0/theta_meter_m3_m3",
+        "water_added_ml": "/points/0/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.091",
+        "raw_calculated": "2027.842227378190255220417633410672853828",
+        "raw_display_integer": "2028",
+        "water_added_ml": "0",
+        "water_added_g": "0",
+        "cumulative_added_water_g": "0",
+        "total_water_g": "676.4227642276422764227642276422764227660",
+        "theta_ref_m3_m3": "0.1229859571322985957132298595713229859575",
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "0",
+        "total_water_g": "676.42276422764227642276422764227642276422764227640",
+        "theta_ref_m3_m3": "0.12298595713229859571322985957132298595713229859571",
+        "raw_derived": "2027.8422273781902552204176334106728538283062645012"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-1",
+      "point_id": 1,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/1",
+      "timestamp": null,
+      "water_added_ml": 150.0,
+      "water_added_g": 150.0,
+      "cumulative_added_water_g": 150.0,
+      "total_water_g": 826.4227642276422,
+      "theta_ref_m3_m3": 0.15025868440502588,
+      "theta_reported_m3_m3": 0.1,
+      "RAW": 2051.0440835266822,
+      "RAW_display_integer": 2051,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": null,
+      "theta_ledger_difference_m3_m3": -0.05025868440502587,
+      "included_main_analysis": false,
+      "quantitative_analysis_include": false,
+      "reference_calibration_pair_include": false,
+      "calibration_fit_include": false,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "unreliable_due_to_insufficient_mixing",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe. MP 1: unzureichend gemischt; Originalwert behalten, nicht quantitativ auswerten.",
+      "warnings": [
+        "MP 1: unzureichend gemischt; Originalwert behalten, nicht quantitativ auswerten."
+      ],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/1/theta_meter_m3_m3",
+        "water_added_ml": "/points/1/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.1",
+        "raw_calculated": "2051.044083526682134570765661252900232019",
+        "raw_display_integer": "2051",
+        "raw_direct_reading": null,
+        "water_added_ml": "150",
+        "water_added_g": "150",
+        "cumulative_added_water_g": "150",
+        "total_water_g": "826.4227642276422764227642276422764227660",
+        "theta_ref_m3_m3": "0.1502586844050258684405025868440502586847",
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "measurement_quality": "unreliable_due_to_insufficient_mixing",
+        "quality_reason": "User reports sample was not properly mixed before point 1 reading.",
+        "quality_source": "user field observation",
+        "calibration_fit_include": false,
+        "quantitative_analysis_include": false,
+        "original_reading_retained": true,
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "150",
+        "total_water_g": "826.42276422764227642276422764227642276422764227640",
+        "theta_ref_m3_m3": "0.15025868440502586844050258684405025868440502586844",
+        "raw_derived": "2051.0440835266821345707656612529002320185614849188"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-2",
+      "point_id": 2,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/2",
+      "timestamp": null,
+      "water_added_ml": 150.0,
+      "water_added_g": 150.0,
+      "cumulative_added_water_g": 300.0,
+      "total_water_g": 976.4227642276422,
+      "theta_ref_m3_m3": 0.17753141167775313,
+      "theta_reported_m3_m3": 0.1,
+      "RAW": 2051.0440835266822,
+      "RAW_display_integer": 2051,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.07753141167775314,
+      "theta_ledger_difference_m3_m3": -0.07753141167775314,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/2/theta_meter_m3_m3",
+        "water_added_ml": "/points/2/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.1",
+        "raw_calculated": "2051.044083526682134570765661252900232019",
+        "raw_display_integer": "2051",
+        "raw_direct_reading": null,
+        "water_added_ml": "150",
+        "water_added_g": "150",
+        "cumulative_added_water_g": "300",
+        "total_water_g": "976.4227642276422764227642276422764227660",
+        "theta_ref_m3_m3": "0.177531411677753141167775314116777531412",
+        "psi_m_status": "Transient attempt: -4.3 to about -11 kPa within a few seconds; no stable endpoint confirmed.",
+        "mixing_confirmed": true,
+        "probe_reinserted_confirmed": true,
+        "process_confirmation_source": "User confirms point 2 reading followed thorough mixing and probe reinsertion.",
+        "psi_m_kpa": "-4.3",
+        "psi_m_observations": [
+          {
+            "sequence": 1,
+            "value_kpa": "-4.3",
+            "approximate": false,
+            "timing": "first reported reading",
+            "stable_end_value_confirmed": false
+          },
+          {
+            "sequence": 2,
+            "value_kpa": "-11",
+            "approximate": true,
+            "timing": "within a few seconds after initial reading; exact duration not recorded",
+            "stable_end_value_confirmed": false
+          }
+        ],
+        "psi_m_stability": "unconfirmed; rapid short-term change observed",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reading_sample": "unsieved original soil, parallel to sieved calibration sample",
+        "psi_m_paired_with_calibration_sample": false,
+        "psi_m_recorded_during_point": 2
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "300",
+        "total_water_g": "976.42276422764227642276422764227642276422764227640",
+        "theta_ref_m3_m3": "0.17753141167775314116777531411677753141167775314116",
+        "raw_derived": "2051.0440835266821345707656612529002320185614849188"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-3",
+      "point_id": 3,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/3",
+      "timestamp": null,
+      "water_added_ml": 300.0,
+      "water_added_g": 300.0,
+      "cumulative_added_water_g": 600.0,
+      "total_water_g": 1276.4227642276423,
+      "theta_ref_m3_m3": 0.2320768662232077,
+      "theta_reported_m3_m3": 0.15,
+      "RAW": 2179.943284351637,
+      "RAW_display_integer": 2180,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.08207686622320769,
+      "theta_ledger_difference_m3_m3": -0.08207686622320769,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/3/theta_meter_m3_m3",
+        "water_added_ml": "/points/3/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.15",
+        "raw_calculated": "2179.943284351637019850476927043052333076",
+        "raw_display_integer": "2180",
+        "raw_direct_reading": null,
+        "water_added_ml": "300",
+        "water_added_g": "300",
+        "cumulative_added_water_g": "600",
+        "total_water_g": "1276.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.2320768662232076866223207686622320768665",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "600",
+        "total_water_g": "1276.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.23207686622320768662232076866223207686622320768662",
+        "raw_derived": "2179.9432843516370198504769270430523330755349316834"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-4",
+      "point_id": 4,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/4",
+      "timestamp": null,
+      "water_added_ml": 300.0,
+      "water_added_g": 300.0,
+      "cumulative_added_water_g": 900.0,
+      "total_water_g": 1576.4227642276423,
+      "theta_ref_m3_m3": 0.28662232076866223,
+      "theta_reported_m3_m3": 0.22,
+      "RAW": 2360.402165506574,
+      "RAW_display_integer": 2360,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.06662232076866223,
+      "theta_ledger_difference_m3_m3": -0.06662232076866223,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/4/theta_meter_m3_m3",
+        "water_added_ml": "/points/4/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.22",
+        "raw_calculated": "2360.402165506573859242072699149265274555",
+        "raw_display_integer": "2360",
+        "raw_direct_reading": null,
+        "water_added_ml": "300",
+        "water_added_g": "300",
+        "cumulative_added_water_g": "900",
+        "total_water_g": "1576.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.2866223207686622320768662232076866223211",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "900",
+        "total_water_g": "1576.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.28662232076866223207686622320768662232076866223207",
+        "raw_derived": "2360.4021655065738592420726991492652745552977571539"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-5",
+      "point_id": 5,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/5",
+      "timestamp": null,
+      "water_added_ml": 300.0,
+      "water_added_g": 300.0,
+      "cumulative_added_water_g": 1200.0,
+      "total_water_g": 1876.4227642276423,
+      "theta_ref_m3_m3": 0.3411677753141168,
+      "theta_reported_m3_m3": 0.288,
+      "RAW": 2535.7050786285126,
+      "RAW_display_integer": 2536,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.053167775314116775,
+      "theta_ledger_difference_m3_m3": -0.053167775314116775,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/5/theta_meter_m3_m3",
+        "water_added_ml": "/points/5/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.288",
+        "raw_calculated": "2535.705078628512503222480020623872131993",
+        "raw_display_integer": "2536",
+        "raw_direct_reading": null,
+        "water_added_ml": "300",
+        "water_added_g": "300",
+        "cumulative_added_water_g": "1200",
+        "total_water_g": "1876.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.3411677753141167775314116777531411677756",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "1200",
+        "total_water_g": "1876.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.34116777531411677753141167775314116777531411677753",
+        "raw_derived": "2535.7050786285125032224800206238721319927816447538"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-6",
+      "point_id": 6,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/6",
+      "timestamp": null,
+      "water_added_ml": 300.0,
+      "water_added_g": 300.0,
+      "cumulative_added_water_g": 1500.0,
+      "total_water_g": 2176.4227642276423,
+      "theta_ref_m3_m3": 0.3957132298595713,
+      "theta_reported_m3_m3": 0.345,
+      "RAW": 2682.650167568961,
+      "RAW_display_integer": 2683,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.05071322985957132,
+      "theta_ledger_difference_m3_m3": -0.05071322985957132,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/6/theta_meter_m3_m3",
+        "water_added_ml": "/points/6/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.345",
+        "raw_calculated": "2682.650167568961072441350863624645527198",
+        "raw_display_integer": "2683",
+        "raw_direct_reading": null,
+        "water_added_ml": "300",
+        "water_added_g": "300",
+        "cumulative_added_water_g": "1500",
+        "total_water_g": "2176.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.3957132298595713229859571322985957132302",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "1500",
+        "total_water_g": "2176.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.39571322985957132298595713229859571322985957132298",
+        "raw_derived": "2682.6501675689610724413508636246455271977313740655"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-7",
+      "point_id": 7,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/7",
+      "timestamp": null,
+      "water_added_ml": 300.0,
+      "water_added_g": 300.0,
+      "cumulative_added_water_g": 1800.0,
+      "total_water_g": 2476.4227642276423,
+      "theta_ref_m3_m3": 0.45025868440502587,
+      "theta_reported_m3_m3": 0.373,
+      "RAW": 2754.8337200309356,
+      "RAW_display_integer": 2755,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.07725868440502587,
+      "theta_ledger_difference_m3_m3": -0.07725868440502587,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/7/theta_meter_m3_m3",
+        "water_added_ml": "/points/7/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.373",
+        "raw_calculated": "2754.833720030935808197989172467130703790",
+        "raw_display_integer": "2755",
+        "raw_direct_reading": null,
+        "water_added_ml": "300",
+        "water_added_g": "300",
+        "cumulative_added_water_g": "1800",
+        "total_water_g": "2476.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.4502586844050258684405025868440502586847",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "1800",
+        "total_water_g": "2476.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.45025868440502586844050258684405025868440502586844",
+        "raw_derived": "2754.8337200309358081979891724671307037896365042537"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-8",
+      "point_id": 8,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/8",
+      "timestamp": null,
+      "water_added_ml": 300.0,
+      "water_added_g": 300.0,
+      "cumulative_added_water_g": 2100.0,
+      "total_water_g": 2776.4227642276423,
+      "theta_ref_m3_m3": 0.5048041389504804,
+      "theta_reported_m3_m3": 0.401,
+      "RAW": 2827.0172724929107,
+      "RAW_display_integer": 2827,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.10380413895048042,
+      "theta_ledger_difference_m3_m3": -0.10380413895048042,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/8/theta_meter_m3_m3",
+        "water_added_ml": "/points/8/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.401",
+        "raw_calculated": "2827.017272492910543954627481309615880382",
+        "raw_display_integer": "2827",
+        "raw_direct_reading": null,
+        "water_added_ml": "300",
+        "water_added_g": "300",
+        "cumulative_added_water_g": "2100",
+        "total_water_g": "2776.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.5048041389504804138950480413895048041393",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "2100",
+        "total_water_g": "2776.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.50480413895048041389504804138950480413895048041389",
+        "raw_derived": "2827.0172724929105439546274813096158803815416344419"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-9",
+      "point_id": 9,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/9",
+      "timestamp": null,
+      "water_added_ml": 600.0,
+      "water_added_g": 600.0,
+      "cumulative_added_water_g": 2700.0,
+      "total_water_g": 3376.4227642276423,
+      "theta_ref_m3_m3": 0.6138950480413895,
+      "theta_reported_m3_m3": 0.44,
+      "RAW": 2927.558649136375,
+      "RAW_display_integer": 2928,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": -0.1738950480413895,
+      "theta_ledger_difference_m3_m3": -0.1738950480413895,
+      "included_main_analysis": true,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": true,
+      "calibration_fit_include": true,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": false,
+      "reference_status": "course-w0 mass-balance estimate; unchanged packed-volume assumption",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe.",
+      "warnings": [],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/9/theta_meter_m3_m3",
+        "water_added_ml": "/points/9/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.44",
+        "raw_calculated": "2927.558649136375354472802268625934519206",
+        "raw_display_integer": "2928",
+        "raw_direct_reading": null,
+        "water_added_ml": "600",
+        "water_added_g": "600",
+        "cumulative_added_water_g": "2700",
+        "total_water_g": "3376.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.6138950480413895048041389504804138950484",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured as a point-assigned value; psi probe stayed inserted and transient display was observed separately",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "2700",
+        "total_water_g": "3376.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.6138950480413895048041389504804138950480413895048",
+        "raw_derived": "2927.5586491363753544728022686259345192059809229183"
+      },
+      "raw_is_derived": true
+    },
+    {
+      "record_id": "group5-2026-10-06-calibration-mp-10",
+      "point_id": 10,
+      "source_file": "initial-sample-calculations.json",
+      "source_sha256": "24d4b878472ff44dc4522be166391bec72d88948a9513ad998eb8e24d95e283c",
+      "source_row": null,
+      "source_pointer": "/points/10",
+      "timestamp": null,
+      "water_added_ml": 600.0,
+      "water_added_g": 600.0,
+      "cumulative_added_water_g": 3300.0,
+      "total_water_g": 3976.4227642276423,
+      "theta_ref_m3_m3": 0.7229859571322986,
+      "theta_reported_m3_m3": 0.467,
+      "RAW": 2997.164217581851,
+      "RAW_display_integer": 2997,
+      "raw_direct_reading": null,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "matrix_kpa": null,
+      "waiting_min": null,
+      "equilibrium_verified": false,
+      "psi_paired_with_calibration_theta": false,
+      "theta_bias_m3_m3": null,
+      "theta_ledger_difference_m3_m3": -0.2559859571322986,
+      "included_main_analysis": false,
+      "quantitative_analysis_include": true,
+      "reference_calibration_pair_include": false,
+      "calibration_fit_include": false,
+      "calibration_fit_performed": false,
+      "visualization_include": true,
+      "reference_includes_possible_surface_water": true,
+      "reference_status": "mass balance includes possible free surface water",
+      "measurement_quality": "recorded single reading; no replicate series supplied",
+      "note": "RAW aus θMETER rückgerechnet; kein unabhängiger RAW-Messwert. Keine gepaarte ψm-Messung der Kalibrierprobe. MP 10: sichtbare Wasseransammlung; θref ist ein Bilanzwert mit möglichem freiem Wasser, kein bestätigter Porenwasser-Referenzwert.",
+      "warnings": [
+        "MP 10: sichtbare Wasseransammlung; θref ist ein Bilanzwert mit möglichem freiem Wasser, kein bestätigter Porenwasser-Referenzwert."
+      ],
+      "source_fields": {
+        "theta_reported_m3_m3": "/points/10/theta_meter_m3_m3",
+        "water_added_ml": "/points/10/water_added_ml"
+      },
+      "original": {
+        "theta_meter_m3_m3": "0.467",
+        "raw_calculated": "2997.164217581850992523846352152616653777",
+        "raw_display_integer": "2997",
+        "raw_direct_reading": null,
+        "water_added_ml": "600",
+        "water_added_g": "600",
+        "cumulative_added_water_g": "3300",
+        "total_water_g": "3976.422764227642276422764227642276422766",
+        "theta_ref_m3_m3": "0.7229859571322985957132298595713229859575",
+        "psi_m_kpa": null,
+        "psi_m_status": "not measured for this point",
+        "reference_includes_possible_surface_water": true,
+        "reference_status": "Total-water mass balance divided by original packed volume; visible surface ponding reported, so not a verified soil pore-water reference.",
+        "calibration_fit_include": false,
+        "reference_calibration_pair_include": false,
+        "calibration_exclusion_reason": "Visible ponding: retained water cannot all be assumed to occupy soil pore volume; soil-reference pair not validated.",
+        "psi_m_include_in_equilibrium_analysis": false,
+        "psi_m_reason_source": "user report of tutor guidance and actual field procedure",
+        "psi_m_paired_with_calibration_sample": false,
+        "latest_theta_update_source": "user states 点10 0.467; latest display supersedes earlier 0.443, no additional water supplied",
+        "earlier_theta_display_m3_m3": "0.443"
+      },
+      "calculation_precision": {
+        "cumulative_added_water_g": "3300",
+        "total_water_g": "3976.4227642276422764227642276422764227642276422764",
+        "theta_ref_m3_m3": "0.72298595713229859571322985957132298595713229859571",
+        "raw_derived": "2997.1642175818509925238463521526166537767465841712"
+      },
+      "raw_is_derived": true
+    }
+  ],
+  "ka6": {
+    "schema_version": "bodensensorik-ka6-v1",
+    "year": 2026,
+    "status": "course_lookup_confirmed",
+    "source": {
+      "file": "KA6_Tabellenwerte.xlsx",
+      "sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+      "read_only": true,
+      "source_sheet": "Parameter mineralisch",
+      "type": "course lookup workbook",
+      "document": "IFBL_Messprotokolle.pdf",
+      "table": 3,
+      "pdf_page": 3,
+      "source_locator": "li/outputs/KA6_Tabellenwerte.xlsx"
+    },
+    "metadata": {
+      "soil_type": {
+        "original": "Ts3",
+        "status": "Fingerprobe estimate"
+      },
+      "dry_density_class": {
+        "original": 1,
+        "source": "explicit user confirmation, all four columns"
+      },
+      "edition": {
+        "original": "KA6, Kursdatei"
+      },
+      "page": {
+        "original": null
+      }
+    },
+    "column_soil_codes": {
+      "Kalibrierprobe": "Ts3 (geschätzt)",
+      "Sand": "Ss",
+      "Schluff": "Uu",
+      "Ton": "Tt"
+    },
+    "trd_class_by_column": {
+      "Kalibrierprobe": 1,
+      "Sand": 1,
+      "Schluff": 1,
+      "Ton": 1
+    },
+    "rows": [
+      {
+        "record_id": "course-ka6-trd1-tw",
+        "indicator_code": "TW",
+        "indicator": "Todwassergehalt (TW)",
+        "values": {
+          "Kalibrierprobe": 33,
+          "Sand": 5,
+          "Schluff": 13,
+          "Ton": 36
+        },
+        "unit": "Vol.-%",
+        "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+        "source_file": "KA6_Tabellenwerte.xlsx",
+        "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+        "source_sheet": "Parameter mineralisch",
+        "source_row": null,
+        "source_fields": {
+          "Kalibrierprobe": "Parameter mineralisch!AA41",
+          "Sand": "Parameter mineralisch!AA12",
+          "Schluff": "Parameter mineralisch!AA29",
+          "Ton": "Parameter mineralisch!AA35"
+        },
+        "has_numeric_data": true,
+        "included_comparison": true,
+        "measured_capacity": false,
+        "warnings": [
+          "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+        ]
+      },
+      {
+        "record_id": "course-ka6-trd1-nfk",
+        "indicator_code": "nFK",
+        "indicator": "Nutzbare Feldkapazität (nFK)",
+        "values": {
+          "Kalibrierprobe": 17,
+          "Sand": 9,
+          "Schluff": 30,
+          "Ton": 20
+        },
+        "unit": "Vol.-%",
+        "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+        "source_file": "KA6_Tabellenwerte.xlsx",
+        "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+        "source_sheet": "Parameter mineralisch",
+        "source_row": null,
+        "source_fields": {
+          "Kalibrierprobe": "Parameter mineralisch!Q41",
+          "Sand": "Parameter mineralisch!Q12",
+          "Schluff": "Parameter mineralisch!Q29",
+          "Ton": "Parameter mineralisch!Q35"
+        },
+        "has_numeric_data": true,
+        "included_comparison": true,
+        "measured_capacity": false,
+        "warnings": [
+          "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+        ]
+      },
+      {
+        "record_id": "course-ka6-trd1-fk",
+        "indicator_code": "FK",
+        "indicator": "Feldkapazität (FK)",
+        "values": {
+          "Kalibrierprobe": 50,
+          "Sand": 14,
+          "Schluff": 43,
+          "Ton": 56
+        },
+        "unit": "Vol.-%",
+        "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+        "source_file": "KA6_Tabellenwerte.xlsx",
+        "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+        "source_sheet": "Parameter mineralisch",
+        "source_row": null,
+        "source_fields": {
+          "Kalibrierprobe": "Parameter mineralisch!V41",
+          "Sand": "Parameter mineralisch!V12",
+          "Schluff": "Parameter mineralisch!V29",
+          "Ton": "Parameter mineralisch!V35"
+        },
+        "has_numeric_data": true,
+        "included_comparison": true,
+        "measured_capacity": false,
+        "warnings": [
+          "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+        ]
+      },
+      {
+        "record_id": "course-ka6-trd1-lk",
+        "indicator_code": "LK",
+        "indicator": "Luftkapazität (LK)",
+        "values": {
+          "Kalibrierprobe": 15,
+          "Sand": 36,
+          "Schluff": 10,
+          "Ton": 8
+        },
+        "unit": "Vol.-%",
+        "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+        "source_file": "KA6_Tabellenwerte.xlsx",
+        "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+        "source_sheet": "Parameter mineralisch",
+        "source_row": null,
+        "source_fields": {
+          "Kalibrierprobe": "Parameter mineralisch!L41",
+          "Sand": "Parameter mineralisch!L12",
+          "Schluff": "Parameter mineralisch!L29",
+          "Ton": "Parameter mineralisch!L35"
+        },
+        "has_numeric_data": true,
+        "included_comparison": true,
+        "measured_capacity": false,
+        "warnings": [
+          "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+        ]
+      },
+      {
+        "record_id": "course-ka6-trd1-gpv",
+        "indicator_code": "GPV",
+        "indicator": "Gesamtporenvolumen (GPV)",
+        "values": {
+          "Kalibrierprobe": 65,
+          "Sand": 50,
+          "Schluff": 53,
+          "Ton": 64
+        },
+        "unit": "Vol.-%",
+        "row_source": "Kursdatei KA6_Tabellenwerte.xlsx / Parameter mineralisch; TRD1",
+        "source_file": "KA6_Tabellenwerte.xlsx",
+        "source_sha256": "a995f80d3201c60414bcff0b36ae62ebeadee69294573b12a4697ed2b30364c0",
+        "source_sheet": "Parameter mineralisch",
+        "source_row": null,
+        "source_fields": {
+          "Kalibrierprobe": "Parameter mineralisch!V41+L41",
+          "Sand": "Parameter mineralisch!V12+L12",
+          "Schluff": "Parameter mineralisch!V29+L29",
+          "Ton": "Parameter mineralisch!V35+L35"
+        },
+        "has_numeric_data": true,
+        "included_comparison": true,
+        "measured_capacity": false,
+        "warnings": [
+          "Ts3 ist Fingerprobe-Schätzung; Tabellenwerte sind keine gemessenen Kapazitäten."
+        ]
+      }
+    ],
+    "numeric_cell_count": 20,
+    "warnings": [
+      "Typische Kurswerte; nur näherungsweise auf künstliche Packung anwendbar.",
+      "Ts3 geschätzt, keine gemessenen Kornfraktionsanteile; keine Übertragung auf andere Proben.",
+      "Keine gemessene Retentionskurve; keine zusätzliche organische Korrektur vorgenommen."
+    ],
+    "current_measurements": true,
+    "values_are_course_lookup_not_measurements": true
+  },
+  "additional_controls": {
+    "pure_water": {
+      "record_id": "group5-pure-water-control",
+      "theta_meter_m3_m3": 0.678,
+      "RAW": 3541.1188450631607,
+      "RAW_display_integer": 3541,
+      "raw_basis": "derived_inverse_of_theta_meter",
+      "same_teros11_confirmed": true,
+      "measuring_part_fully_immersed_confirmed": true,
+      "display_mode": "mineral soil",
+      "interpretation_source": "user reports normal reading in mineral-soil mode",
+      "timestamp": null,
+      "soil_measurement_point": false,
+      "soil_mass_balance_changed": false,
+      "theta_ref_m3_m3": null,
+      "soil_calibration_validation": false,
+      "raw_display_integer": 3541
+    }
+  },
+  "parallel_observations": {
+    "matrix_potential": {
+      "sample": "ungesiebter Ausgangsboden, getrennt von Kalibrierprobe",
+      "probe_kept_inserted": true,
+      "paired_with_calibration_theta": false,
+      "stable_equilibrium_value_confirmed": false,
+      "full_numeric_time_series_received": false,
+      "observations": [
+        {
+          "record_id": "original-soil-psi-1",
+          "value_kpa": -4.3,
+          "approximate": false,
+          "timestamp": null
+        },
+        {
+          "record_id": "original-soil-psi-2",
+          "value_kpa": -11,
+          "approximate": true,
+          "timestamp": null
+        }
+      ],
+      "elapsed_time": "binnen weniger Sekunden, genaue Dauer unbekannt",
+      "noted_during_point": 2,
+      "continuous_transient_observation": true,
+      "retention_curve_eligible": false
+    }
+  },
+  "field_observations": {
+    "water_content_comparison": {
+      "user_observation": "计算参考含水量与仪器读数差距大。",
+      "difference_definition": "100 * (theta_METER - theta_ref), in volumetric percentage points",
+      "exclude_points": [
+        1
+      ],
+      "cause_status": "not established",
+      "reference_basis": "course laboratory w0 and user-supplied sample mass/volume",
+      "current_comparisons": [
+        {
+          "point": 0,
+          "difference_vol_percentage_points": "-3.198595713229859571322985957132298595750",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 2,
+          "difference_vol_percentage_points": "-7.753141167775314116777531411677753141200",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 3,
+          "difference_vol_percentage_points": "-8.207686622320768662232076866223207686650",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 4,
+          "difference_vol_percentage_points": "-6.662232076866223207686622320768662232110",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 5,
+          "difference_vol_percentage_points": "-5.316777531411677753141167775314116777560",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 6,
+          "difference_vol_percentage_points": "-5.071322985957132298595713229859571323020",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 7,
+          "difference_vol_percentage_points": "-7.725868440502586844050258684405025868470",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 8,
+          "difference_vol_percentage_points": "-10.38041389504804138950480413895048041393",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 9,
+          "difference_vol_percentage_points": "-17.38950480413895048041389504804138950484",
+          "reference_includes_possible_surface_water": false
+        },
+        {
+          "point": 10,
+          "difference_vol_percentage_points": "-25.59859571322985957132298595713229859575",
+          "reference_includes_possible_surface_water": true
+        }
+      ]
+    },
+    "matrix_potential_short_term_change": {
+      "point": 2,
+      "initial_kpa": "-4.3",
+      "later_kpa": "-11",
+      "later_approximate": true,
+      "elapsed_time": "within a few seconds; user report, exact duration not recorded",
+      "stable_end_value_confirmed": false,
+      "course_context": "Kurshandbuch S.48: short equilibration may not yield an equilibrium value",
+      "elapsed_time_qualitative": "within a few seconds",
+      "exact_elapsed_seconds": null,
+      "sample": "unsieved original soil, separate from calibration sample",
+      "paired_with_calibration_theta": false,
+      "point_assignment": "Noted during MP 2, not a soil-retention pair with MP 2 theta"
+    },
+    "mixing_method": {
+      "user_observation": "从上面浇水会导致分布不均；水越多越难搅拌。",
+      "possible_error_mechanism": "Local water content around sensor may differ from bulk-average reference; not established as sole cause.",
+      "proposed_improvement": "Use two buckets; pour the same soil between buckets while adding water in portions, then thoroughly mix.",
+      "proposal_source": "user field observation and proposed improvement",
+      "effectiveness_verified": false,
+      "performed": null
+    },
+    "repeat_measurement": {
+      "source": "user proposed field improvement",
+      "proposal_zh": "同一加水阶段，用两个桶来回倒土混匀，多次测试，保留单次读数后取平均。",
+      "fixed_water_state_required": true,
+      "mixing_and_probe_reinsertion_between_repeats": true,
+      "replicate_count_specified": null,
+      "actual_replicate_series_received": false,
+      "aggregate_status": "not calculated: no replicate series supplied",
+      "psi_caution": "Do not average a transient drifting psi series and interpret it as equilibrium."
+    },
+    "sample_loss": {
+      "source": "user supplement to two-bucket mixing proposal",
+      "user_observation_zh": "倒土过程中会有土壤损失，例如桶内残留或洒落。",
+      "actual_loss_amount_received": false,
+      "actual_loss_stage_received": false,
+      "possible_effect": "Loss of moist soil may remove dry solids and water; repacking may change bulk volume.",
+      "proposal": "Collect and return material as completely as possible, document losses, check mass/water balance and remaining bulk volume.",
+      "numeric_correction_applied": false,
+      "existing_initial_mass_and_recorded_points_preserved": true,
+      "correction_constraint": "Remaining wet mass alone cannot distinguish dry soil loss from water loss; do not invent a correction."
+    },
+    "ka6_comparison": {
+      "source": "user field observation",
+      "user_observation_zh": "对比KA6表也有误差。",
+      "specific_parameters_and_values_received": false,
+      "trd_class_confirmed": true,
+      "cause_status": "not established",
+      "course_context": "Kurshandbuch S.48-49: lookup by soil texture and dry density class; apply only approximately to artificially packed calibration sample.",
+      "texture_status": "Ts3 estimated by Fingerprobe",
+      "numeric_deviation_calculated": false,
+      "trd_class": 1,
+      "reference_lookup_values_now_entered": {
+        "TW": 33,
+        "nFK": 17,
+        "FK": 50,
+        "LK": 15,
+        "GPV": 65
+      },
+      "lookup_values_unit": "Vol.-%",
+      "specific_comparison_pairs_available": false
+    },
+    "early_saturation": {
+      "source": "user qualitative field observation",
+      "user_wording_zh": "现实中土壤比理论上更快达到Sättigung的状态。",
+      "criterion_user_wording_zh": "水不进去了感觉",
+      "criterion_de": "Das Wasser schien nicht weiter in die Probe einzudringen.",
+      "onset_measurement_point": null,
+      "onset_time": null,
+      "whole_sample_complete_saturation_confirmed": false,
+      "reference_gpv_vol_percent": 65,
+      "reference_status": "course Ts3/TRD1 typical lookup value, not measured porosity of current packing",
+      "possible_factors": [
+        "uneven local wetting",
+        "actual artificial packing differing from typical reference",
+        "mass/water/volume balance assumptions"
+      ],
+      "cause_status": "not established",
+      "course_context": "Skript_IFBL S.53: saturation water volume equals total pore volume if no entrapped air; Kurshandbuch S.48-49: lookup only approximately applies to artificially packed sample.",
+      "existing_measurement_values_preserved": true
+    },
+    "matrix_potential_nonmeasurement": {
+      "source": "user clarification of actual procedure and tutor guidance",
+      "user_wording_zh": "前两个导师说需要很长时间；点二试了一下，几秒从-4.3到-11，所以后面都没有做。",
+      "not_measured_points": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "attempted_point": 2,
+      "reason": "Long equilibration explained by tutor; continuous transient display observed, no point-wise recorded stable values.",
+      "exact_waiting_time_supplied": false,
+      "confirmed_equilibrium_values_available": false,
+      "instrument_fault_reported": false,
+      "continuous_observation_still_performed": true
+    },
+    "surface_water_point10": {
+      "point": 10,
+      "source": "user field observation",
+      "user_wording_zh": "点10 0.443 或许到极限了 明显有积水了",
+      "visible_surface_water_confirmed": true,
+      "new_water_added_ml": "600",
+      "theta_meter_previous_m3_m3": "0.440",
+      "theta_meter_m3_m3": "0.467",
+      "theta_increment_m3_m3": "0.027",
+      "sensor_limit_hypothesis": "user suggests possible limit; not established",
+      "whole_soil_saturation_confirmed": false,
+      "reference_limitation": "Total water includes possible free water on the surface; mass balance theta is not a validated soil water-content calibration reference.",
+      "soil_theta_reading_preserved": true,
+      "latest_theta_source": "user states 点10 0.467"
+    },
+    "matrix_potential_continuous_observation": {
+      "source": "user clarification",
+      "user_wording_zh": "基质势我们在同时一直插在一个土里，数值也一直在变化",
+      "probe_kept_inserted": true,
+      "continuous_display_observation_performed": true,
+      "display_continued_to_change": true,
+      "soil_identity_relative_to_calibration": "unsieved original soil separate from sieved calibration sample",
+      "full_numeric_time_series_received": false,
+      "stable_equilibrium_value_confirmed": false,
+      "scope": "simultaneous qualitative observation; not a point-wise equilibrated retention measurement series",
+      "sample_is_unsieved_original_soil": true,
+      "sample_source": "user says 没筛的原土",
+      "paired_with_calibration_theta": false
+    }
+  },
+  "warnings": [
+    "RAW ist aus θMETER rückgerechnet, keine unabhängige Signalbeobachtung und keine Grundlage für einen RAW-Fit.",
+    "MP 1 unzureichend gemischt; sichtbar behalten, von quantitativen Vergleichen ausgeschlossen.",
+    "MP 10 mit sichtbarer Wasseransammlung; θref nur Bilanzwert, kein validierter Kalibrierungsreferenzpunkt.",
+    "ψm stammt aus ungesiebtem Ausgangsboden und ist nicht mit Kalibrier-θ gepaart; keine Retentionskurve.",
+    "Einzelwerte ohne Wiederholungsreihe; keine Mittelwerte, Unsicherheitsbalken oder Messpunktzeiten erfunden."
+  ],
+  "analysis": {
+    "fits_performed": false,
+    "quantitative_pair_count": 9,
+    "excluded_quantitative_pairs": [
+      1,
+      10
+    ],
+    "all_recorded_points_visible": true,
+    "time_axis_available": false,
+    "repeat_series_available": false,
+    "raw_fit_permitted": false,
+    "retention_curve_permitted": false
+  },
+  "current_measurements": true,
+  "parallel_matrix_observation": {
+    "sample": "ungesiebter Ausgangsboden, getrennt von Kalibrierprobe",
+    "probe_kept_inserted": true,
+    "paired_with_calibration_theta": false,
+    "stable_equilibrium_value_confirmed": false,
+    "full_numeric_time_series_received": false,
+    "observations": [
+      {
+        "record_id": "original-soil-psi-1",
+        "value_kpa": -4.3,
+        "approximate": false,
+        "timestamp": null
+      },
+      {
+        "record_id": "original-soil-psi-2",
+        "value_kpa": -11,
+        "approximate": true,
+        "timestamp": null
+      }
+    ],
+    "elapsed_time": "binnen weniger Sekunden, genaue Dauer unbekannt",
+    "noted_during_point": 2,
+    "continuous_transient_observation": true,
+    "retention_curve_eligible": false
+  }
+}
